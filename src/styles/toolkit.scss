@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import "./_mixins.scss";
+
+$bg-color: white;
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: $bg-color;
+}
+
+.toolkit-wrapper {
+    //height: 100vh;
+    //background-color: gray;
+    //display: flex;
+    //align-items: flex-end;
+
+    width: calc(100vw - 50px); //margin, padding and border
+    margin: 0 auto;
+    padding-top: 15vh;
+    position: relative;
+    //font-family: "Anton", sans-serif;
+
+    h1 {
+        font-size: clamp(100px, 15vw, 15vw);
+        font-weight: bold;
+        margin-bottom: 4vh;
+        max-width: 70vw;
+        text-transform: uppercase;
+        font-family: "Anton", sans-serif;
+        color: #111;
+    }
+    .content {
+        margin-bottom: 4vh;
+        font-family: "Poppins", sans-serif;
+        color: #111;
+        font-weight: 300;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    .first-wrapper {
+        .ai-free {
+            float: right;
+            .ai-free-styles {
+                margin-bottom: 2vh;
+                font-family: "Anton", sans-serif;
+                color: #111;
+                font-size: clamp(100px, 7vw, 15vw);
+            }
+        }
+        .chart {
+            .chart-style {
+                text-transform: uppercase;
+                font-weight: 200;
+                font-size: clamp(80px, 1vw, 15vw);
+                font-family: "Anton", sans-serif;
+                margin-bottom: 2vh;
+            }
+            .s-a-k {
+                text-transform: uppercase;
+                //font-weight: 200;
+                font-size: clamp(40px, 1vw, 15vw);
+                font-family: "Anton", sans-serif;
+                margin-bottom: 2vh;
+            }
+            .ai-write {
+                text-transform: uppercase;
+                font-weight: 200;
+                font-size: clamp(50px, 1vw, 15vw);
+                font-family: "Anton", sans-serif;
+                margin-bottom: 2vh;
+                text-align: center;
+            }
+            .web-builder {
+                text-transform: uppercase;
+                font-weight: 200;
+                font-size: clamp(30px, 1vw, 15vw);
+                font-family: "Anton", sans-serif;
+                //text-align: center;
+                margin-bottom: 2vh;
+            }
+        }
+    }
+
+    .second-wrapper {
+        .wrapp {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 4vh;
+            font-family: "Poppins", sans-serif;
+            color: #111;
+            font-weight: 300;
+            text-transform: uppercase;
+            text-align: center;
+            .marketing {
+                margin: 0 10vh;
+                font-size: 25px;
+            }
+            .grid {
+                margin: 0 10vh;
+                font-size: 25px;
+            }
+            .icon {
+                margin: 0 10vh;
+                font-size: 25px;
+            }
+        }
+        .idea-clip{
+            margin-bottom: 3vh;
+            font-family: "Anton", sans-serif;
+            color: #111;
+            //font-size: clamp(100px, 12vw, 15vw);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+            .idea{
+                font-size: clamp(100px, 10vw, 15vw);
+
+            }
+            .clip{
+                font-size: clamp(100px, 4vw, 15vw);
+            }
+            .clip:last-child{
+                font-size: clamp(100px, 1vw, 15vw);
+            }
+        }
+    }
+    .third-wrapper{
+        .content-1 {
+            margin: 0;
+            font-family: "Poppins", sans-serif;
+            color: #111;
+            font-weight: 500;
+            text-transform: uppercase;
+            text-align: center;
+            
+        }
+    }
+
+    @include mq("tablet", min) {
+        margin-left: 75px;
+        padding-left: 10px;
+        border-left: 1px solid rgb(116, 116, 116);
+        width: calc(100vw - 126px); //margin, padding and border
+    }
+}
