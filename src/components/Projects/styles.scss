@@ -11,17 +11,17 @@
     //overflow-y: hidden;
     //overflow-y: hidden;
     &::before{
-        content: "Work";
+        content: "Wor";
         text-transform: uppercase;
-        font-family: "Anton",sans-serif;
+        font-family: "Poppins",sans-serif;
         position: absolute;
-        font-weight: 500;
+        font-weight: 800;
         font-size: 23rem;
         top: -90px;
         right: -20px;
         z-index: -1;
         color: rgb(190, 190, 190);
-        letter-spacing: 5px;
+        //letter-spacing: 5px;
 
     }
     .row {
