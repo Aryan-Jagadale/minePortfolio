@@ -9,6 +9,11 @@ import { Link } from "react-router-dom";
 
 const internalLinks = [
   {
+    url: "/",
+    component: <span>Home</span>,
+    img: "https://images.unsplash.com/photo-1593697821028-7cc59cfd7399?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2100&q=80",
+  },
+  {
     url: "/toolkit",
     component: <span>Toolkit Web</span>,
     img: "https://images.unsplash.com/photo-1615713170963-2595d2c721bb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80",
@@ -23,16 +28,7 @@ const internalLinks = [
     component: <span>Contact Me</span>,
     img: "https://images.unsplash.com/photo-1554941829-202a0b2403b8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2100&q=80",
   },
-  {
-    url: "/",
-    component: <span>Home</span>,
-    img: "https://images.unsplash.com/photo-1593697821028-7cc59cfd7399?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2100&q=80",
-  },
-  {
-    url: "#5",
-    component: <span>Career</span>,
-    img: "https://images.unsplash.com/photo-1588200618450-3a5b1d3b9aa5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2100&q=80",
-  },
+  
 ];
 
 const externalLinks = [
@@ -52,7 +48,7 @@ const externalLinks = [
 
 const MenuContent = () => {
 
-  const { open } = useContext(MenuContext);
+  const { open,setOpen } = useContext(MenuContext);
 
   return (
     <div className="menu-holder">
@@ -62,7 +58,7 @@ const MenuContent = () => {
           <ul className="internal-nav-links">
             {internalLinks.map((link) => (
               <li key={link.url}>
-                <Link to={link.url}>{link.component}</Link>
+                <Link to={link.url} onClick={() => setOpen(!open)}>{link.component}</Link>
                 <img src={link.img} alt={link.img} />
               </li>
             ))}

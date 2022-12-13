@@ -7,6 +7,7 @@ $bg-color: white;
 body {
   font-family: "Poppins", sans-serif;
   background-color: $bg-color;
+  overflow: hidden;
 }
 
 .main-container {

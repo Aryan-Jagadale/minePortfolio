@@ -1,10 +1,12 @@
 @import "../../styles/mixins.scss";
 
+
+
 .contact-button {
     border: 1px solid #111;
     padding: 20px;
     background: #111;
-    position: absolute;
+    position: fixed;
     bottom: 10vh;
     right: 10vw;
     text-transform: uppercase;
@@ -15,6 +17,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 11;
+    //position: fixed;
   
     span {
       margin-right: 10px;
