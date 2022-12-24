@@ -13,7 +13,7 @@ export default function ContactButton() {
       className={cn("contact-button", { open })}
       onClick={() => setOpen(!open)}
     >
-      <span>Contact us</span> <Plus />
+      <span>Contact me</span> <Plus />
     </button>
   );
 }

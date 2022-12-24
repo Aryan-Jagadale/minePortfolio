@@ -1,6 +1,9 @@
 import React from "react";
 import ContactButton from "../ContactButton";
 import Projects from "../Projects/Projects";
+import MeMyselfandI from "../MeMyselfandI/MeMyselfandI";
+import Skills from "../Skills/Skills";
+
 
 const Intro = () => {
   return (
@@ -13,7 +16,10 @@ const Intro = () => {
           <ContactButton />
         
         </div>
+        <MeMyselfandI/>
         <Projects />
+        <Skills/>
+        
     </>
   );
 };

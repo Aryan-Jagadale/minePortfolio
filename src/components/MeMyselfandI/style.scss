@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import "../../styles/mixins";
+
+.me-wrapper {
+    height: 55vh;
+    width: calc(100vw - 50px); //margin, padding and border
+    //margin: 0 auto;
+    padding-top: 10vh;
+    //padding-top: 15vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    //align-items: center;
+    .me-division{
+        width: 70vw;
+        
+        .me-title{
+            text-align: center;
+            font-size: 100px;
+            font-weight: bold;
+            margin-bottom: 8vh;
+            font-family: "Poppins", sans-serif;
+            color: #111;
+
+
+        }
+        .me-para{
+            text-align: center;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 1.5rem;
+            margin-bottom: 2vh;
+            //max-width: 60vw;
+            //text-transform: uppercase;
+            font-family: "Poppins", sans-serif;
+            color: #6b6b6b;
+        }
+        .me-para:last-child{
+            text-align: center;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 1.5rem;
+            margin-bottom: 2vh;
+            //max-width: 60vw;
+            //text-transform: uppercase;
+            font-family: "Poppins", sans-serif;
+            color: #111;
+            cursor: pointer;
+            text-decoration: underline;
+        }
+    }
+
+    @include mq("tablet", min) {
+        margin-left: 75px;
+        padding-left: 10px;
+        border-left: 1px solid rgb(116, 116, 116);
+        width: calc(100vw - 126px); //margin, padding and border
+        
+    }
+}

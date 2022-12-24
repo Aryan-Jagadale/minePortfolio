@@ -11,7 +11,7 @@ const caseStudies = [
   {
     id: 2,
     subtitle: "Yourspace",
-    title: "Open space floor plans for you next venture",
+    title: "Open space floor plans for you next",
     img: "yourspace-min",
   },
   {
@@ -19,13 +19,22 @@ const caseStudies = [
     subtitle: "Lumin",
     title: "For your best look ever",
     img: "lumin-min",
-  }
+  },
 ];
 
 const Projects = () => {
   return (
     <div className="projects-wrapper">
-      
+      <div className="portfolio">
+        <h2 className="port-title">My Portfolio</h2>
+        <p className="port-para">
+          A small gallery of recent projects chosen by me. I've done them all
+          together with amazing people from companies around the globe. It's
+          only a drop in the ocean compared to the entire list.
+          Interested to see more? Visit <span>my work</span> page
+        </p>
+      </div>
+
       <div className="row">
         {caseStudies.map((caseItem) => {
           return (
