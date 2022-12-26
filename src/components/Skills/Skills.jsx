@@ -61,9 +61,34 @@ const Skills = () => {
                 containerColor="#f0d4da"
               />
             </div>
+
+            <div className="skills-item">
+              <h3>Docker</h3>
+              <LineProgressBar
+                percent={70}
+                rounded={36}
+                height={5}
+                progressColor="linear-gradient(to right, rgb(101 255 91) 60%, rgb(144 225 112))"
+                containerColor="#ccf4c9"
+              />
+            </div>
+
+            <div className="skills-item">
+              <h3>Google Cloud</h3>
+              <LineProgressBar
+                percent={90}
+                rounded={36}
+                height={5}
+                progressColor="linear-gradient(to right, #ff8133 60%, rgb(255 146 70))"
+                containerColor="#ffdcc7"
+              />
+            </div>
+
+
+
           </div>
 
-          <div className="card-experience">
+          {/*<div className="card-experience">
             <div className="card">
               <h3>Frontend Developer</h3>
               <h5>TedxVit Pune</h5>
@@ -73,7 +98,8 @@ const Skills = () => {
                 and sharing engaging content.
               </p>
             </div>
-  </div>
+  </div>*/}
+
         </div>
       </div>
     </div>

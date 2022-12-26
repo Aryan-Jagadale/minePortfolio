@@ -3,7 +3,7 @@
 @import "../../styles/mixins";
 
 .projects-wrapper {
-    height: 100vh;
+    //height: 100vh;
     width: calc(100vw - 50px); //margin, padding and border
     margin: 0 auto;
     padding-top: 12vh;
@@ -17,7 +17,8 @@
         font-family: "Poppins", sans-serif;
         position: absolute;
         font-weight: 800;
-        font-size: 23rem;
+        //font-size: 23rem;
+        font-size: clamp(25rem, 25vw, 15vw);
         top: 9%;
         right: -20px;
         z-index: -1;
@@ -27,7 +28,8 @@
     .portfolio {
         .port-title {
             //font-size: clamp(100px, 12vw, 15vw);
-            font-size: 100px;
+            //font-size: 100px;
+            font-size: clamp(5rem, 7vw, 15vw);
             font-weight: bold;
             margin-bottom: 8vh;
             //max-width: 70vw;
@@ -56,11 +58,12 @@
     .row {
         //padding-top: 20vh;
         display: flex;
-
+        flex-wrap: wrap;
+        width: 100%;
         .case {
             position: relative;
             cursor: pointer;
-            height: 50vh;
+            //height: 50vh;
             height: calc(var(--vh, 1vh) * 50);
             width: 40vw;
             background: black;
@@ -80,7 +83,7 @@
                 font-family: "Anton", sans-serif;
                 //letter-spacing: .005rem;
                 span {
-                    margin-top: 156px;
+                    margin-top: 5rem;
                     font-size: 1.6rem;
                     opacity: 0.8;
                     color: white;
@@ -120,4 +123,30 @@
             padding-left: 0;
         }
     }
+    @include mq("tablet-wide",max){
+        &::before{
+            display: none;
+        }
+        .row{
+            //flex-direction: column;
+            //flex-wrap: wrap;
+            .case{
+                width: 50vw;
+                height: 60vh;
+                .case-details{
+                    padding: 17px;
+                    span{
+
+                    }
+                    h2{
+
+                    }
+
+                }
+                
+            }
+        }
+    }
+
+
 }

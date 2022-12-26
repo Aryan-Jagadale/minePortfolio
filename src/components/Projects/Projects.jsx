@@ -20,6 +20,12 @@ const caseStudies = [
     title: "For your best look ever",
     img: "lumin-min",
   },
+  /*{
+    id: 4,
+    subtitle: "Trail",
+    title: "A custom formula for your skin’s",
+    img: "curology-min",
+  },*/
 ];
 
 const Projects = () => {

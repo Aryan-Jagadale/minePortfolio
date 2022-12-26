@@ -5,7 +5,7 @@ const MeMyselfandI = () => {
   return (
     <div className="me-wrapper">
       <div className="me-division">
-        <h2 className="me-title">Me, Myself and I</h2>
+        <h2 className="me-title">Me, Myself & I</h2>
         <p className="me-para">
           Since Adobe Flash was a complete innovation, alongside with CSS 1.0
           and HTML 4.01 as standards of the current web I've been passionate

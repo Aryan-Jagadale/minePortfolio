@@ -3,12 +3,13 @@
 @import "../../styles/mixins";
 
 .skills-wrapper {
-    height: 100vh;
+    //height: 100vh;
     width: calc(100vw - 50px); //margin, padding and border
     //margin: 0 auto;
     // padding-top: 10vh;
     //padding-top: 15vh;
     position: relative;
+    
     .big-wrapper {
         display: flex;
         width: 100%;
@@ -20,7 +21,8 @@
             width: 55%;
             h2{
                 //text-align: center;
-            font-size: 100px;
+            //font-size: 5rem;
+            font-size: clamp(5rem, 7vw, 15vw);
             font-weight: bold;
             margin-bottom: 8vh;
             font-family: "Poppins", sans-serif;
@@ -112,4 +114,38 @@
         border-left: 1px solid rgb(116, 116, 116);
         width: calc(100vw - 126px); //margin, padding and border
     }
+
+   @media (max-width:768px) {
+        .big-wrapper{
+           // flex-direction: column;
+            //width: calc(100vw - 50px);
+           margin: 0 25px;
+    }
+}
+
+    @media (max-width:1024px) {
+        .big-wrapper{
+            flex-direction: column;
+            //width: calc(100vw - 50px);
+           // margin: 0 25px;
+            .left-wrap{
+                width: 100%;
+                
+
+            }
+            .right-wrap{
+                width: 100%;
+                //margin: 0 auto;
+
+
+            }
+        }
+    }
+
+
+
+
+
+
+
 }

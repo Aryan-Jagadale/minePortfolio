@@ -24,6 +24,8 @@
               transition-delay: #{$i/10 + 0.8}s;
               text-decoration: none;
               color: white;
+              font-family: "Poppins", sans-serif;
+            
             }
           }
         }
@@ -69,6 +71,7 @@
     .internal-nav-links {
       li {
         margin-bottom: 20px;
+        position: relative;
 
         a {
           font-size: clamp(32px, 4vw, 52px);
@@ -79,9 +82,26 @@
         }
 
         &:hover {
-          cursor: pointer;
+          &::after{
+            content: "open";
+            cursor: pointer;
+            text-transform: uppercase;
+            font-family: "Poppins", sans-serif;
+            position: absolute;
+            top:0;
+            left:0;
+            background-color: gray;
+            padding: 5px 10px;
+            font-size: 13px;
+            border-radius: 20px;
+            letter-spacing: 1px;
+            
+          
+          }
+
           a {
             font-weight: 800;
+            
           }
           img {
             opacity: 1;
