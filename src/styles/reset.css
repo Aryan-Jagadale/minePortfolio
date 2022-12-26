@@ -2,7 +2,9 @@
    v2.0-modified | 20110126
    License: none (public domain)
 */
-
+*{
+  cursor: none;
+}
 html,
 body,
 div,
