@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
 .skills-wrapper {
-  height: 100vh;
   width: calc(100vw - 50px);
   position: relative;
 }
@@ -17,7 +16,7 @@
   width: 55%;
 }
 .skills-wrapper .big-wrapper .left-wrap h2 {
-  font-size: 100px;
+  font-size: clamp(5rem, 7vw, 15vw);
   font-weight: bold;
   margin-bottom: 8vh;
   font-family: "Poppins", sans-serif;
@@ -95,5 +94,21 @@
     padding-left: 10px;
     border-left: 1px solid rgb(116, 116, 116);
     width: calc(100vw - 126px);
+  }
+}
+@media (max-width: 768px) {
+  .skills-wrapper .big-wrapper {
+    margin: 0 25px;
+  }
+}
+@media (max-width: 1024px) {
+  .skills-wrapper .big-wrapper {
+    flex-direction: column;
+  }
+  .skills-wrapper .big-wrapper .left-wrap {
+    width: 100%;
+  }
+  .skills-wrapper .big-wrapper .right-wrap {
+    width: 100%;
   }
 }/*# sourceMappingURL=skills.css.map */

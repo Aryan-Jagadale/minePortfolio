@@ -1,10 +1,12 @@
 import React from "react";
 import "./skills.scss";
 import { LineProgressBar } from "@frogress/line";
+//import cn from "classnames";
 
 const Skills = () => {
+  
   return (
-    <div className="skills-wrapper">
+    <div data-scroll-section className="skills-wrapper">
       <div className="big-wrapper">
         <div className="left-wrap">
           <h2>Skills & Experience</h2>
@@ -83,9 +85,6 @@ const Skills = () => {
                 containerColor="#ffdcc7"
               />
             </div>
-
-
-
           </div>
 
           {/*<div className="card-experience">
@@ -99,7 +98,6 @@ const Skills = () => {
               </p>
             </div>
   </div>*/}
-
         </div>
       </div>
     </div>

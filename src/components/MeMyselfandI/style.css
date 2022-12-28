@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
 .me-wrapper {
-  height: 55vh;
   width: calc(100vw - 50px);
   padding-top: 10vh;
   position: relative;
@@ -13,7 +12,7 @@
 }
 .me-wrapper .me-division .me-title {
   text-align: center;
-  font-size: 100px;
+  font-size: clamp(5rem, 7vw, 15vw);
   font-weight: bold;
   margin-bottom: 8vh;
   font-family: "Poppins", sans-serif;
@@ -45,5 +44,28 @@
     padding-left: 10px;
     border-left: 1px solid rgb(116, 116, 116);
     width: calc(100vw - 126px);
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .me-wrapper {
+    display: block;
+  }
+  .me-wrapper .me-division {
+    width: 100vw;
+  }
+  .me-wrapper .me-division .me-title {
+    text-align: left;
+  }
+  .me-wrapper .me-division .me-para {
+    text-align: left;
+  }
+  .me-wrapper .me-division .me-para:last-child {
+    text-align: left;
+    margin: 0;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .me-wrapper {
+    margin: 0 25px;
   }
 }/*# sourceMappingURL=style.css.map */

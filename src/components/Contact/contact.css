@@ -1,33 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
-body {
-  font-family: "Poppins", sans-serif;
-  background-color: white;
-  overflow: hidden;
-}
-
-.cursor {
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 32px;
-  height: 32px;
-  border-radius: 16px;
-  background-color: black;
-  pointer-events: none;
-  mix-blend-mode: difference;
-  background-color: white;
-}
-
-.main-container {
+.contact-container {
   height: 100vh;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   width: calc(100vw - 50px);
   margin: 0 auto;
   position: relative;
 }
-.main-container h1 {
+.contact-container h1 {
   font-size: clamp(100px, 12vw, 15vw);
   font-weight: bold;
   margin-bottom: 10vh;
@@ -37,10 +18,10 @@ body {
   color: #111;
 }
 @media only screen and (min-width: 767px) {
-  .main-container {
+  .contact-container {
     margin-left: 75px;
     padding-left: 10px;
     border-left: 1px solid rgb(116, 116, 116);
     width: calc(100vw - 126px);
   }
-}/*# sourceMappingURL=home.css.map */
+}/*# sourceMappingURL=contact.css.map */

@@ -1,0 +1,161 @@
+.secondary-cursor {
+  z-index: 10000;
+  border-radius: 50%;
+  pointer-events: none;
+  overflow: hidden;
+  transform: translate3d(0, 0, 0);
+  position: fixed;
+  background: white;
+  mix-blend-mode: difference;
+  transition: width 0.25s ease-in-out, height 0.25s ease-in-out;
+}
+.secondary-cursor.regular {
+  width: 40px;
+  height: 40px;
+}
+.secondary-cursor.small {
+  width: 60px;
+  height: 60px;
+}
+
+.secondary-cursor {
+  z-index: 10000;
+  pointer-events: none;
+  transform: translate3d(0, 0, 0);
+  position: fixed;
+}
+
+.secondary-cursor {
+  width: 30px;
+  height: 30px;
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes bgUp {
+  from {
+    background-color: transparent;
+  }
+  to {
+    background-color: black;
+  }
+}
+@keyframes bgUp {
+  from {
+    background-color: transparent;
+  }
+  to {
+    background-color: black;
+  }
+}
+@-webkit-keyframes bgDown {
+  from {
+    background-color: black;
+  }
+  to {
+    background-color: transparent;
+  }
+}
+@keyframes bgDown {
+  from {
+    background-color: black;
+  }
+  to {
+    background-color: transparent;
+  }
+}
+@-webkit-keyframes scaleUp {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.5);
+  }
+}
+@keyframes scaleUp {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.5);
+  }
+}
+@-webkit-keyframes scaleDown {
+  from {
+    transform: scale(1.5);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+@keyframes scaleDown {
+  from {
+    transform: scale(1.5);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+@-webkit-keyframes translateLeftDot {
+  from {
+    transform: translate(20px, -50%);
+  }
+  to {
+    transform: translate(0px, -50%);
+  }
+}
+@keyframes translateLeftDot {
+  from {
+    transform: translate(20px, -50%);
+  }
+  to {
+    transform: translate(0px, -50%);
+  }
+}
+@-webkit-keyframes translateRightDot {
+  from {
+    transform: translate(-20px, -50%);
+  }
+  to {
+    transform: translate(0px, -50%);
+  }
+}
+@keyframes translateRightDot {
+  from {
+    transform: translate(-20px, -50%);
+  }
+  to {
+    transform: translate(0px, -50%);
+  }
+}/*# sourceMappingURL=style.css.map */

@@ -6,6 +6,9 @@ import Intro from "./components/Intro/Intro";
 import { Routes, Route } from "react-router-dom";
 import ToolKit from "./containers/ToolKit";
 import CustomCursor from "./components/CustomCursor";
+import Contact from "./components/Contact/Contact";
+
+
 
 function App() {
   //const [cursorXY, setCursorXY] = useState({ x: -100, y: -100 });
@@ -20,6 +23,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Intro />} />
           <Route path="/toolkit" element={<ToolKit />} />
+          <Route path="/contact" element={<Contact />} />
+
         </Routes>
       </MenuManager>
     </>

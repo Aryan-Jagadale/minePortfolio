@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+.form-container {
+  height: 100vh;
+  width: calc(100vw - 50px);
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+}
+.form-container .form-text {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.form-container .form-text .form-text-para {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.5rem;
+  margin-bottom: 2vh;
+  font-family: "Poppins", sans-serif;
+  color: #6b6b6b;
+}
+.form-container .form-text .form-submit {
+  font-family: "Poppins", sans-serif;
+  margin: 3vw;
+}
+.form-container .form-text .form-submit .form-name-email {
+  display: inline-flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.form-container .form-text .form-submit .form-name-email div {
+  margin-bottom: 20px;
+  display: inline-block;
+  position: relative;
+}
+.form-container .form-text .form-submit .form-name-email div input {
+  width: 100%;
+  border: 0;
+  background: #2b2b2b;
+  height: 50px;
+  font-size: 16px;
+  color: #8d8d8d;
+  padding: 0 20px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.form-container .form-text .form-submit .form-name-email div::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+.form-container .form-text .form-submit .form-name-email div:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.form-container .form-text .form-submit .form-subject {
+  margin-bottom: 20px;
+  display: inline-block;
+  position: relative;
+  width: 100%;
+}
+.form-container .form-text .form-submit .form-subject input {
+  width: 100%;
+  border: 0;
+  background: #2b2b2b;
+  height: 50px;
+  font-size: 16px;
+  color: #8d8d8d;
+  padding: 0 20px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.form-container .form-text .form-submit .form-subject::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+.form-container .form-text .form-submit .form-subject:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.form-container .form-text .form-submit .form-message {
+  margin-bottom: 20px;
+  display: inline-block;
+  position: relative;
+  width: 100%;
+}
+.form-container .form-text .form-submit .form-message textarea {
+  width: 100%;
+  border: 0;
+  background: #2b2b2b;
+  height: 100px;
+  font-size: 16px;
+  color: #8d8d8d;
+  padding: 20px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.form-container .form-text .form-submit .form-message::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+.form-container .form-text .form-submit .form-message:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.form-container .form-text .form-submit .send-button {
+  border: 1px solid white;
+  padding: 15px;
+  background: transparent;
+  font-size: 16px;
+  color: white;
+  transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+  letter-spacing: 3px;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form-container .form-text .form-submit .send-button:hover {
+  background-color: white;
+  color: #111;
+}
+.form-container .form-map {
+  width: 50%;
+  height: 100%;
+}
+@media only screen and (min-width: 767px) {
+  .form-container {
+    margin-left: 75px;
+    padding-left: 10px;
+    border-left: 1px solid rgb(116, 116, 116);
+    width: calc(100vw - 126px);
+  }
+}/*# sourceMappingURL=form.css.map */

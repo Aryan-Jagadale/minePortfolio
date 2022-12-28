@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
 .projects-wrapper {
-  height: 100vh;
   width: calc(100vw - 50px);
   margin: 0 auto;
   padding-top: 12vh;
@@ -12,14 +11,14 @@
   font-family: "Poppins", sans-serif;
   position: absolute;
   font-weight: 800;
-  font-size: 23rem;
+  font-size: clamp(25rem, 25vw, 15vw);
   top: 9%;
   right: -20px;
   z-index: -1;
   color: rgb(190, 190, 190);
 }
 .projects-wrapper .portfolio .port-title {
-  font-size: 100px;
+  font-size: clamp(5rem, 7vw, 15vw);
   font-weight: bold;
   margin-bottom: 8vh;
   font-family: "Poppins", sans-serif;
@@ -41,11 +40,12 @@
 }
 .projects-wrapper .row {
   display: flex;
+  flex-wrap: wrap;
+  width: 100%;
 }
 .projects-wrapper .row .case {
   position: relative;
   cursor: pointer;
-  height: 50vh;
   height: calc(var(--vh, 1vh) * 50);
   width: 40vw;
   background: black;
@@ -64,7 +64,7 @@
   font-family: "Anton", sans-serif;
 }
 .projects-wrapper .row .case .case-details span {
-  margin-top: 156px;
+  margin-top: 5rem;
   font-size: 1.6rem;
   opacity: 0.8;
   color: white;
@@ -101,5 +101,17 @@
   }
   .projects-wrapper .row {
     padding-left: 0;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .projects-wrapper::before {
+    display: none;
+  }
+  .projects-wrapper .row .case {
+    width: 50vw;
+    height: 60vh;
+  }
+  .projects-wrapper .row .case .case-details {
+    padding: 17px;
   }
 }/*# sourceMappingURL=styles.css.map */

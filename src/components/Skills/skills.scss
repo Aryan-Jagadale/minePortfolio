@@ -15,7 +15,7 @@
         width: 100%;
         justify-content: center;
         align-items: center;
-        flex-direction: row-reverse;
+        flex-direction: row;
         gap: 2;
         .left-wrap {
             width: 55%;
@@ -34,6 +34,7 @@
             font-size: 16px;
             line-height: 1.5rem;
             margin-bottom: 2vh;
+            //opacity: 0;
             //max-width: 60vw;
             //text-transform: uppercase;
             font-family: "Poppins", sans-serif;
@@ -43,7 +44,9 @@
                 text-decoration: underline;
                 cursor: pointer;
             }
+
             }
+            
         }
         .right-wrap {
             width: 45%;
@@ -141,6 +144,7 @@
             }
         }
     }
+    
 
 
 
