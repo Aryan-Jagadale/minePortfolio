@@ -23,7 +23,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Intro />} />
           <Route path="/toolkit" element={<ToolKit />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/collab" element={<Contact />} />
 
         </Routes>
       </MenuManager>

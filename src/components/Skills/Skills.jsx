@@ -1,10 +1,10 @@
 import React from "react";
 import "./skills.scss";
 import { LineProgressBar } from "@frogress/line";
+import { Link } from "react-router-dom";
 //import cn from "classnames";
 
 const Skills = () => {
-  
   return (
     <div data-scroll-section className="skills-wrapper">
       <div className="big-wrapper">
@@ -32,7 +32,21 @@ const Skills = () => {
             layouts.
           </p>
           <p>
-            Visit my <span>LinkedIn Profile</span> or Contact me.
+            Visit my{" "}
+            <span>
+              <a
+                href="https://www.linkedin.com/in/aryan-jagadale-0a0a69203/"
+                target="_blank"
+                rel="noreferrer"
+                style={{
+                  textDecoration: "underline",
+                  cursor:"pointer"
+                }}
+              >
+                LinkedIn Profile
+              </a>
+            </span>{" "}
+            or <Link to="/collab">Contact me</Link>.
           </p>
         </div>
         <div className="right-wrap">

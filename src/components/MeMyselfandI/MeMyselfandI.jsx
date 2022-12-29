@@ -1,5 +1,7 @@
 import React from "react";
 import "./style.scss";
+import { Link } from "react-router-dom";
+
 
 const MeMyselfandI = () => {
   return (
@@ -21,7 +23,10 @@ const MeMyselfandI = () => {
           Interested in the frontend spectrum and working on the ambitious
           projects with positive people
         </p>
-        <p className="me-para">Let's make something special</p>
+        <p className="me-para"><Link to="/collab" style={{
+          textDecoration:"underline",
+          cursor:"pointer"
+        }}>Let's make something special</Link></p>
       </div>
     </div>
   );

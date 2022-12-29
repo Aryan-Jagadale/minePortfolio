@@ -17,6 +17,8 @@
     position: relative;
 
     display: flex;
+    justify-content: center;
+    align-items: center;
 
     .form-text {
         //background-color: aquamarine;
@@ -25,6 +27,7 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
+        text-align: center;
         .form-text-para {
             //text-align: center;
             font-weight: bold;
@@ -39,27 +42,67 @@
         .form-submit {
             font-family: "Poppins", sans-serif;
             //width: 100%;
-            margin: 3vw;
+            margin: 2vw;
+            //background-color: aqua;
             .form-name-email {
-                display: inline-flex;
+                display: flex;
                 width: 100%;
                 justify-content: space-between;
-                div {
+                gap: 2;
+                .fne-1{
                     margin-bottom: 20px;
                     display: inline-block;
                     position: relative;
                     input {
-                        width: 100%;
+                        width: 15vw;
                         border: 0;
-                        background: #2b2b2b;
-                        //background: transparent;
+                        //background: #2b2b2b;
+                        background: transparent;
                         height: 50px;
                         font-size: 16px;
                         color: #8d8d8d;
                         padding: 0 20px;
                         -webkit-box-sizing: border-box;
                         box-sizing: border-box;
-                        //border-bottom: 1px solid black;
+                        border-bottom: 1px solid #8d8d8d;
+                        font-family: "Poppins", sans-serif;
+                        
+                    }
+                    &::after {
+                        content: "";
+                        //border: #111;
+                        position: absolute;
+                        width: 100%;
+                        transform: scaleX(0);
+                        height: 2px;
+                        bottom: 0;
+                        left: 0;
+                        background-color: #fff;
+                        transform-origin: bottom right;
+                        transition: transform 0.25s ease-out;
+                    }
+                    &:hover::after{
+                        transform: scaleX(1);
+                        transform-origin: bottom left;
+                    }
+                    
+                }
+                .fne-2{
+                    margin-bottom: 20px;
+                    display: inline-block;
+                    position: relative;
+                    input {
+                        width: 15vw;
+                        border: 0;
+                        //background: #2b2b2b;
+                        background: transparent;
+                        height: 50px;
+                        font-size: 16px;
+                        color: #8d8d8d;
+                        padding: 0 20px;
+                        -webkit-box-sizing: border-box;
+                        box-sizing: border-box;
+                        border-bottom: 1px solid #8d8d8d;
                         font-family: "Poppins", sans-serif;
                         
                     }
@@ -91,15 +134,15 @@
                 input {
                     width: 100%;
                     border: 0;
-                    background: #2b2b2b;
-                    //background: transparent;
+                    //background: #2b2b2b;
+                    background: transparent;
                     height: 50px;
                     font-size: 16px;
                     color: #8d8d8d;
                     padding: 0 20px;
                     -webkit-box-sizing: border-box;
                     box-sizing: border-box;
-                    //border-bottom: 1px solid black;
+                    border-bottom: 1px solid #8d8d8d;
                     font-family: "Poppins", sans-serif;
                 }
                 &::after {
@@ -128,15 +171,15 @@
                 textarea {
                     width: 100%;
                     border: 0;
-                    background: #2b2b2b;
-                    //background: transparent;
+                    //background: #2b2b2b;
+                    background: transparent;
                     height: 100px;
                     font-size: 16px;
                     color: #8d8d8d;
                     padding: 20px;
                     -webkit-box-sizing: border-box;
                     box-sizing: border-box;
-                    //border-bottom: 1px solid black;
+                    border-bottom: 1px solid #8b8b8b;
                     font-family: "Poppins", sans-serif;
                     //margin-bottom: 20px;
                 }
@@ -180,15 +223,41 @@
         }
     }
 
-    .form-map {
-        width: 50%;
-        height: 100%;
-    }
+    
 
     @include mq("tablet", min) {
         margin-left: 75px;
         padding-left: 10px;
         border-left: 1px solid rgb(116, 116, 116);
         width: calc(100vw - 126px); //margin, padding and border
+    }
+    @include mq("tablet",max){
+        .form-text{
+            width: 100%;
+            text-align: left;
+            .form-submit{
+                .form-name-email{
+                    flex-direction: column;
+                    .fne-1,.fne-2{
+                        width: 100%;
+                        input{
+                            width: 100%;
+                        }
+
+                    }
+                }
+                .send-button{
+                    padding: 12px;
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+
+    
+    @include mq("phablet",max){
+        .form-text{
+            width: 100%;
+        }
     }
 }

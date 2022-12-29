@@ -44,6 +44,13 @@
                 text-decoration: underline;
                 cursor: pointer;
             }
+            a{
+                &:hover{
+                    text-decoration: underline;
+                    color: #111;
+                    cursor: pointer;
+                }
+            }
 
             }
             

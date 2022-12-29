@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { Instagram } from "react-feather";
+import { Instagram,Linkedin } from "react-feather";
 import "./style.scss";
 import { MenuContext } from "../MenuManager";
 import cn from "classnames";
@@ -16,8 +16,8 @@ const internalLinks = [
     component: <span>Resume</span>,
   },
   {
-    url: "/contact",
-    component: <span>Contact Me</span>,
+    url: "/collab",
+    component: <span>Collab</span>,
   },
 ];
 
@@ -30,7 +30,11 @@ const externalLinks = [
   },
   {
     url: "https://www.reddit.com/user/Aaryan_1824",
-    component: <Instagram />,
+    component: <span>Reddit</span>,
+  },
+  {
+    url: "https://www.linkedin.com/in/aryan-jagadale-0a0a69203/",
+    component: <Linkedin />,
   },
 ];
 
@@ -63,7 +67,7 @@ const MenuContent = () => {
           <ul className="external-nav-links">
             {externalLinks.map((link) => (
               <li key={link.url}>
-                <a href={link.url}>{link.component}</a>
+                <a target="_blank" rel="noreferrer" href={link.url}>{link.component}</a>
               </li>
             ))}
           </ul>
