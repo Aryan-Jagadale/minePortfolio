@@ -11,11 +11,9 @@ const Header = () => {
 
   const handleAudio = () => {
     if (!on) {
-      console.log("On");
       audio.play();
       return setOn(true);
     } else {
-      console.log("Off");
       audio.currentTime = 0;
       audio.pause();
       return setOn(false);
