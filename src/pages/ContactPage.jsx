@@ -1,8 +1,9 @@
 import React from "react";
 import Loadable from "react-loadable";
+import Loader from "../components/Loader/Loader";
 
 
-const loader = () => <div>Loading...</div>;
+const loader = () => <Loader/>;
 
 const ContactLazy = Loadable({
     loader: () => import("../containers/Contact/Contact"), 
