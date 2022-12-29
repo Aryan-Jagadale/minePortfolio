@@ -1,10 +1,10 @@
 import React from "react";
-import ContactButton from "../ContactButton";
+import ContactButton from "../../components/ContactButton";
 //import Projects from "../Projects/Projects";
-import MeMyselfandI from "../MeMyselfandI/MeMyselfandI";
-import Skills from "../Skills/Skills";
+import MeMyselfandI from "../../components/MeMyselfandI/MeMyselfandI";
+import Skills from "../../components/Skills/Skills";
 //import ScrollComp from "../ScrollComp/ScrollComp";
-import SkillsIntro from "../SkillsIntro/SkillsIntro";
+import SkillsIntro from "../../components/SkillsIntro/SkillsIntro";
 
 const Intro = () => {
   return (

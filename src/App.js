@@ -2,11 +2,12 @@
 import Header from "./components/Header";
 import "./styles/home.scss";
 import MenuManager from "./components/Menu/MenuManager";
-import Intro from "./components/Intro/Intro";
 import { Routes, Route } from "react-router-dom";
 import ToolKit from "./containers/ToolKit";
 import CustomCursor from "./components/CustomCursor";
-import Contact from "./components/Contact/Contact";
+
+import Contact from "./pages/ContactPage";
+import Intro from "./pages/IntroPage";
 
 
 

@@ -2,9 +2,10 @@
    v2.0-modified | 20110126
    License: none (public domain)
 */
-*{
+* {
   cursor: none;
 }
+
 html,
 body,
 div,
@@ -92,6 +93,22 @@ video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
+  scroll-behavior: smooth;
+  
+}
+
+body::-webkit-scrollbar {
+  width: 0.5em;
+}
+
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: gray;
+  outline: 1px solid gray;
+  border-radius: 20px;
 }
 
 /* make sure to set some focus styles for accessibility */

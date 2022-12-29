@@ -1,11 +1,14 @@
 import React, { useState, useEffect, useRef } from "react";
-import ContactButton from "../ContactButton";
+import ContactButton from "../../components/ContactButton";
 import "./contact.scss";
-import ContactForm from "./ContactForm";
+import ContactForm from "../../components/Contact/ContactForm";
 import AnimaionContext from "../../context/animation-context";
 
 import { gsap, ScrollTrigger, Draggable, MotionPathPlugin } from "gsap/all";
 gsap.registerPlugin(ScrollTrigger, Draggable, MotionPathPlugin);
+
+
+
 
 const Contact = () => {
   const [currentBg, setCurrentBg] = useState("#fff");

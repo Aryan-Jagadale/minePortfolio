@@ -9,19 +9,17 @@ const MeMyselfandI = () => {
       <div className="me-division">
         <h2 className="me-title">Me, Myself & I</h2>
         <p className="me-para">
-          Since Adobe Flash was a complete innovation, alongside with CSS 1.0
-          and HTML 4.01 as standards of the current web I've been passionate
+          Since VLC Media Player was a complete innovation, alongside with CSS 3.0, HTML 5.0 and ES6 as standards of the current web I've been passionate
           about web.
         </p>
         <p className="me-para">
-          For over a decade I had many opportunities to work in a vast spectrum
-          of what let me gather a significant amount of various experience.
-          Working for companies and individuals around the globe I met and
+          For over a year I had many opportunities to work in a vast spectrum
+          of <span style={{color:"black"}}>web technologies</span> what let me gather a significant amount of various experience.
+          Working for clients and individuals around the globe I met and
           learnt from amazing and ambitious people.
         </p>
         <p className="me-para">
-          Interested in the frontend spectrum and working on the ambitious
-          projects with positive people
+        I look forward to the opportunity to work with you and help bring your vision to life.
         </p>
         <p className="me-para"><Link to="/collab" style={{
           textDecoration:"underline",
