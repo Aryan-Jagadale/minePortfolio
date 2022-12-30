@@ -5,27 +5,23 @@ import MenuManager from "./components/Menu/MenuManager";
 import { Routes, Route } from "react-router-dom";
 import ToolKit from "./containers/ToolKit";
 import CustomCursor from "./components/CustomCursor";
-
+import 'react-toastify/dist/ReactToastify.css';
 import Contact from "./pages/ContactPage";
 import Intro from "./pages/IntroPage";
-
-
+import { ToastContainer } from "react-toastify";
 
 function App() {
-  //const [cursorXY, setCursorXY] = useState({ x: -100, y: -100 });
-  
 
   return (
     <>
-    <CustomCursor/>
+      <CustomCursor />
+      <ToastContainer/>
       <MenuManager>
-        
         <Header />
         <Routes>
           <Route path="/" element={<Intro />} />
           <Route path="/toolkit" element={<ToolKit />} />
           <Route path="/collab" element={<Contact />} />
-
         </Routes>
       </MenuManager>
     </>

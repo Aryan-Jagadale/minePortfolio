@@ -2,6 +2,79 @@
 @import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
 @import "../../styles/mixins";
 
+.appContainer {
+    width: calc(100vw - 50px); //margin, padding and border
 
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fcfbfb;
+    .wrapper {
+        width: 1300px;
+        background-color: aqua;
+        .containerWrapper {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: space-between;
+            .first {
+                font-size: 40px;
+                position: relative;
+                .textWrapper {
+                    h2 {
+                        //ext-align: center;
+                        //font-size: 100px;
+                        font-size: clamp(5rem, 7vw, 15vw);
+                        font-weight: bold;
+                        margin-bottom: 8vh;
+                        font-family: "Poppins", sans-serif;
+                        color: #111;
+                    }
+                    p {
+                        //text-align: center;
+                        font-weight: bold;
+                        font-size: 16px;
+                        line-height: 1.5rem;
+                        margin-bottom: 2vh;
+                        //max-width: 60vw;
+                        //text-transform: uppercase;
+                        font-family: "Poppins", sans-serif;
+                        color: #6b6b6b;
+                    }
+                }
+            }
+            .container {
+                display: flex;
+                flex-direction: row;
+                align-items: stretch;
+                overflow: hidden;
+                min-width: 600px;
+                max-width: 930px;
+                width: calc(100% - 100px);
+                height: 600px;
+                .itemWrapper {
+                    position: relative;
+                    overflow: hidden;
+                    min-width: 150px;
+                    cursor: pointer;
+                    border-radius: 20px;
+                    padding: 0 20px;
+                    flex-grow: ${({ isActive }) => (isActive ? 4 : 1)};
+                    transition: all 0.6s ease;
+                }
+            }
+        }
+    }
 
-
+    @include mq("tablet", min) {
+        //text-align: left;
+        margin-left: 75px;
+        padding-left: 10px;
+        border-left: 1px solid rgb(116, 116, 116);
+        width: calc(100vw - 126px); //margin, padding and border
+        //padding-bottom: 20vh;
+    }
+}

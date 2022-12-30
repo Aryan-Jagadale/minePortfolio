@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import "../../styles/mixins";
+
+
+.footer-wrapper{
+    width: calc(100vw - 50px); //margin, padding and border
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.5rem;
+    padding: 2rem 1rem;
+    background-color: #1d1d1d;
+    font-family: "Poppins",sans-serif;
+    color: #b2b2b2;
+    .heading{
+        span{
+            color: #fff;
+            font-weight: 500;
+        }
+    }
+    .para-name{
+        span{
+            color: #fff;
+            letter-spacing: 1px;
+        }
+    }
+    @include mq("tablet", min) {
+        margin-left: 75px;
+        padding-left: 10px;
+        border-left: 1px solid rgb(116, 116, 116);
+        width: calc(100vw - 126px); //margin, padding and border
+        
+    }
+}
+
+
+
+
+
+
+

@@ -1,52 +1,48 @@
-import React from "react";
+import React, { useState, useEffect, useRef } from "react";
 import ContactButton from "../../components/ContactButton";
-//import Loader from "../../components/Loader/Loader";
-//import Projects from "../Projects/Projects";
 import MeMyselfandI from "../../components/MeMyselfandI/MeMyselfandI";
-import Skills from "../../components/Skills/Skills";
-//import ScrollComp from "../ScrollComp/ScrollComp";
 import SkillsIntro from "../../components/SkillsIntro/SkillsIntro";
+import Skills from "../../components/Skills/Skills";
+import { gsap, ScrollTrigger, Draggable, MotionPathPlugin } from "gsap/all";
+import AnimaionContext from "../../context/animation-context";
+import Footer from "../../components/Footer/Footer";
 
-//import useLocoScroll from "../../hooks/useLocoScroll";
+gsap.registerPlugin(ScrollTrigger, Draggable, MotionPathPlugin);
 
 const Intro = () => {
-  //const ref = useRef(null);
-  /*const [preloader, setPreloader] = useState(true);
+  const [currentBg, setCurrentBg] = useState("#fff");
 
-  //  useLocoScroll(!preloader);
-
-  const [timer, setTimer] = useState(3);
-
-  const clear = () => {
-    setPreloader(false);
-  };
+  let appRef = useRef(null);
 
   useEffect(() => {
-    window.setInterval(() => {
-      setTimer((time) => time - 1);
-    }, 1000);
-    return () => clear();
-  }, [preloader]);
-
-  useEffect(() => {
-    if (timer === 0) {
-      clear();
-    }
-  }, [timer]);*/
+    gsap.to(appRef.current, {
+      duration: 1,
+      background: currentBg,
+    });
+  }, [currentBg]);
 
   return (
     <>
-      <div className="main-container" id="main-container" data-scroll-container>
-        <h1>
-          Hello <br /> I am A<span>a</span>RYAN
-        </h1>
-  <SkillsIntro />
-  
+      <AnimaionContext.Provider value={{ setCurrentBg }}>
+        <div ref={appRef}>
+          <div
+            className="main-container"
+            id="main-container"
+            data-scroll-container
+          >
+            <h1>
+              Hello <br /> I am A<span>a</span>RYAN
+            </h1>
+            <SkillsIntro />
 
-        <ContactButton />
-      </div>
-      <MeMyselfandI />
-      <Skills />
+            <ContactButton />
+          </div>
+
+          <MeMyselfandI />
+          <Skills />
+          <Footer/>
+        </div>
+      </AnimaionContext.Provider>
     </>
   );
 };

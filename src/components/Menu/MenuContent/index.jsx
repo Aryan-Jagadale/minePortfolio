@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { Instagram,Linkedin } from "react-feather";
+import { GitHub, Instagram, Linkedin, Mail, Twitter } from "react-feather";
 import "./style.scss";
 import { MenuContext } from "../MenuManager";
 import cn from "classnames";
@@ -16,25 +16,35 @@ const internalLinks = [
     component: <span>Resume</span>,
   },
   {
+    url: "#3",
+    component: <span>About Me</span>,
+  },
+  {
     url: "/collab",
     component: <span>Collab</span>,
   },
 ];
 
 const externalLinks = [
-  //https://www.reddit.com/user/Aaryan_1824
-
   {
     url: "https://www.instagram.com/_aryan.jagadale_/",
     component: <Instagram />,
   },
   {
-    url: "https://www.reddit.com/user/Aaryan_1824",
-    component: <span>Reddit</span>,
-  },
-  {
     url: "https://www.linkedin.com/in/aryan-jagadale-0a0a69203/",
     component: <Linkedin />,
+  },
+  {
+    url: "https://twitter.com/Aaryan30757183",
+    component: <Twitter />,
+  },
+  {
+    url: "https://github.com/Aryan-Jagadale",
+    component: <GitHub />,
+  },
+  {
+    url: "mailto:aryansjagadale@gmail.com",
+    component: <Mail />,
   },
 ];
 
@@ -49,27 +59,30 @@ const MenuContent = () => {
             {internalLinks.map((link) => {
               return (
                 <>
-                <li key={link.url}>
-                  <Link to={link.url} onClick={() => setOpen(!open)}  key={link.url}>
-                    {link.component}
-                  </Link>
-                  
-                </li>
-                
-                
+                  <li key={link.url}>
+                    <Link
+                      to={link.url}
+                      onClick={() => setOpen(!open)}
+                      key={link.url}
+                    >
+                      {link.component}
+                    </Link>
+                  </li>
                 </>
-                
-
-
               );
             })}
           </ul>
           <ul className="external-nav-links">
+
             {externalLinks.map((link) => (
               <li key={link.url}>
-                <a target="_blank" rel="noreferrer" href={link.url}>{link.component}</a>
+                <a target="_blank" rel="noreferrer" href={link.url}>
+                  {link.component}
+                </a>
               </li>
             ))}
+
+
           </ul>
         </div>
       </div>

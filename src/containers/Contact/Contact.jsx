@@ -1,7 +1,9 @@
 import React, { useState, useEffect, useRef } from "react";
-import ContactButton from "../../components/ContactButton";
 import "./contact.scss";
+import ContactButton from "../../components/ContactButton";
 import ContactForm from "../../components/Contact/ContactForm";
+import Footer from "../../components/Footer/Footer";
+
 import AnimaionContext from "../../context/animation-context";
 
 import { gsap, ScrollTrigger, Draggable, MotionPathPlugin } from "gsap/all";
@@ -27,6 +29,7 @@ const Contact = () => {
       <AnimaionContext.Provider value={{ setCurrentBg }}>
 
         <div ref={appRef}>
+        
           <div className="contact-container" id="contact-container">
             <h1>
               Don't <br /> Be a <br /> Stranger.
@@ -35,6 +38,7 @@ const Contact = () => {
           </div>
 
           <ContactForm />
+          <Footer/>
         </div>
         
       </AnimaionContext.Provider>

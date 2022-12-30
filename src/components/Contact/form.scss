@@ -2,10 +2,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
 @import "../../styles/mixins.scss";
 
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
-@import "../../styles/mixins.scss";
-
 .form-container {
     height: 100vh;
     //background-color: gray;
@@ -54,6 +50,7 @@
                     display: inline-block;
                     position: relative;
                     input {
+                        
                         width: 15vw;
                         border: 0;
                         //background: #2b2b2b;

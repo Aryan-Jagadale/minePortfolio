@@ -18,7 +18,7 @@
         flex-direction: row;
         gap: 2;
         .left-wrap {
-            width: 55%;
+            width: 65%;
             h2{
                 //text-align: center;
             //font-size: 5rem;
@@ -26,7 +26,7 @@
             font-weight: bold;
             margin-bottom: 8vh;
             font-family: "Poppins", sans-serif;
-            color: #111;
+            color: #fff;
             }
             p{
                 //text-align: center;
@@ -38,7 +38,7 @@
             //max-width: 60vw;
             //text-transform: uppercase;
             font-family: "Poppins", sans-serif;
-            color: #6b6b6b;
+            color: #b2b2b2;
             span{
                 color: #111;
                 text-decoration: underline;
@@ -47,7 +47,7 @@
             a{
                 &:hover{
                     text-decoration: underline;
-                    color: #111;
+                    color: white;
                     cursor: pointer;
                 }
             }
@@ -56,22 +56,33 @@
             
         }
         .right-wrap {
-            width: 45%;
+            width: 35%;
             padding: 1.5rem;
             padding-right: 2rem;
             display: flex;
             flex-direction: column;
             .skills-progress{
+                background-color: #2e2e2e;
+                padding: 25px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                border-radius: 20px;
                 .skills-item{
                     margin-bottom: 2rem;
                     width: 85%;
                     h3{
                         font-family: "Poppins", sans-serif;
                         font-weight: bold;
-                        font-size: 25px;
+                        font-size: 20px;
                         //line-height: 1.5rem;
                         margin-bottom: 1rem;
+                        color:white
                     }
+                }
+                .skills-item:last-child{
+                    margin-bottom: 0;
                 }
             }
             .card-experience{
@@ -93,7 +104,7 @@
                     font-weight: bold;
                     margin-bottom: 1vh;
                     font-family: "Poppins", sans-serif;
-                    color: #111;
+                    //color: #fff;
                 }
                 h5{
                     font-size: 22px;
@@ -123,6 +134,7 @@
         padding-left: 10px;
         border-left: 1px solid rgb(116, 116, 116);
         width: calc(100vw - 126px); //margin, padding and border
+        padding-bottom: 10vh;
     }
 
    @media (max-width:768px) {
