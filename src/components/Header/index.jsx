@@ -4,7 +4,6 @@ import Reels from "../../assets/Dandelions.mp3";
 import "./styles.scss";
 const audio = new Audio(Reels);
 
-
 const Header = () => {
   const [on, setOn] = useState(false);
   audio.loop = true;
@@ -22,16 +21,13 @@ const Header = () => {
 
   return (
     <div className="header-wrap">
-      <p
+      <button
         className="brand-description"
         onClick={handleAudio}
-        style={{
-          cursor: "pointer",
-          fontFamily: "Poppins ,sans-serif",
-        }}
+        
       >
-        Sound {!on ? "On" : "Off"}
-      </p>
+        <span>Sound {!on ? "On" : "Off"}</span>
+      </button>
 
       <Menu />
     </div>
@@ -39,3 +35,15 @@ const Header = () => {
 };
 
 export default Header;
+/*
+
+
+position: fixed;
+    z-index: 11;
+    top: 100px;
+    right: 10vw;
+    max-width: 120px;
+
+
+
+*/

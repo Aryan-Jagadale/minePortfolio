@@ -71,16 +71,16 @@ const ContactForm = () => {
         <form className="form-submit" ref={formRef} onSubmit={sendEmail}>
           <div className="form-name-email">
             <div className="fne-1">
-              <input placeholder="Name" type="text" name="name" />
+              <input placeholder="Name" type="text" name="name" required />
             </div>
 
             <div className="fne-2">
-              <input placeholder="Email" type="email" name="email" />
+              <input placeholder="Email" type="email" name="email" required />
             </div>
           </div>
 
           <div className="form-subject">
-            <input placeholder="Subject" type="text" name="subject" />
+            <input placeholder="Subject" type="text" name="subject" required />
           </div>
 
           <div className="form-message">
@@ -89,6 +89,7 @@ const ContactForm = () => {
               type="text"
               rows={"20"}
               name="message"
+              required
             />
           </div>
 

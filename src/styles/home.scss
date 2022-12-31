@@ -56,6 +56,9 @@ body {
       font-size: clamp(85px, 12vw, 15vw);
     }
   }
+  @include mq("tablet-small", max) {
+    padding-top: 20vh;
+  }
 
 
 }
