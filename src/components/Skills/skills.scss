@@ -3,11 +3,7 @@
 @import "../../styles/mixins";
 
 .skills-wrapper {
-    //height: 100vh;
-    width: calc(100vw - 50px); //margin, padding and border
-    //margin: 0 auto;
-    // padding-top: 10vh;
-    //padding-top: 15vh;
+    width: calc(100vw - 50px); 
     position: relative;
     
     .big-wrapper {
@@ -20,23 +16,18 @@
         .left-wrap {
             width: 65%;
             h2{
-                //text-align: center;
-            //font-size: 5rem;
             font-size: clamp(5rem, 7vw, 15vw);
             font-weight: bold;
             margin-bottom: 8vh;
             font-family: "Poppins", sans-serif;
             color: #fff;
+            overflow-wrap: break-word;
             }
             p{
-                //text-align: center;
             font-weight: bold;
             font-size: 16px;
             line-height: 1.5rem;
             margin-bottom: 2vh;
-            //opacity: 0;
-            //max-width: 60vw;
-            //text-transform: uppercase;
             font-family: "Poppins", sans-serif;
             color: #b2b2b2;
             span{
@@ -76,7 +67,6 @@
                         font-family: "Poppins", sans-serif;
                         font-weight: bold;
                         font-size: 20px;
-                        //line-height: 1.5rem;
                         margin-bottom: 1rem;
                         color:white
                     }
@@ -91,9 +81,7 @@
                 align-items: center;
                 margin-top: 25px;
              .card{
-                //height: 50vh;
                 background-color: #f3f3f3;
-
                 width: 35vw;
                 border: 1px solid black;
                 border-radius: 20px;
@@ -104,7 +92,6 @@
                     font-weight: bold;
                     margin-bottom: 1vh;
                     font-family: "Poppins", sans-serif;
-                    //color: #fff;
                 }
                 h5{
                     font-size: 22px;
@@ -118,8 +105,6 @@
                     font-size: 16px;
                     line-height: 1.5rem;
                     margin-bottom: 2vh;
-                    //max-width: 60vw;
-                    //text-transform: uppercase;
                     font-family: "Poppins", sans-serif;
                     color: #6b6b6b;
                 }
@@ -139,8 +124,6 @@
 
    @media (max-width:768px) {
         .big-wrapper{
-           // flex-direction: column;
-            //width: calc(100vw - 50px);
            margin: 0 25px;
     }
 }
@@ -148,8 +131,6 @@
     @media (max-width:1024px) {
         .big-wrapper{
             flex-direction: column;
-            //width: calc(100vw - 50px);
-           // margin: 0 25px;
             .left-wrap{
                 width: 100%;
                 
@@ -157,13 +138,20 @@
             }
             .right-wrap{
                 width: 100%;
-                //margin: 0 auto;
-
-
             }
         }
     }
-    
+
+    @include mq("phone-wide", max) {
+        .big-wrapper{
+            .left-wrap{
+                h2{
+                font-size: clamp(4rem, 7vw, 15vw);
+
+                }
+            }
+        }
+    }
 
 
 

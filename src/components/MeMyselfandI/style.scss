@@ -3,26 +3,23 @@
 @import "../../styles/mixins";
 
 .me-wrapper {
-     //height: 100vh;
     width: calc(100vw - 50px); //margin, padding and border
-    //margin: 0 auto;
+
     padding-top: 10vh;
-    //padding-top: 15vh;
+
     position: relative;
     display: flex;
     justify-content: center;
-    //align-items: center;
-    .me-division {
-        //width: 70vw;
 
+    .me-division {
         .me-title {
             text-align: center;
-            //font-size: 100px;
             font-size: clamp(5rem, 7vw, 15vw);
             font-weight: bold;
             margin-bottom: 8vh;
             font-family: "Poppins", sans-serif;
             color: #111;
+            overflow-wrap: break-word;
         }
         .me-para {
             text-align: center;
@@ -66,18 +63,27 @@
             .me-title {
                 text-align: left;
             }
-            .me-para{
+            .me-para {
                 text-align: left;
             }
             .me-para:last-child {
                 text-align: left;
                 margin: 0;
             }
-            
         }
     }
     @include mq("tablet", max) {
         margin: 0 25px;
     }
-}
 
+    @include mq("phone-wide", max) {
+            .me-division{
+                .me-title{
+                font-size: clamp(4rem, 7vw, 15vw);
+
+                }
+            }
+
+    }
+
+}
