@@ -22,7 +22,7 @@ body {
   background-color: white;
 }
 .main-container {
-  height: 100vh;
+  //height: 100vh;
   //background-color: gray;
   display: flex;
   //align-items: center;
@@ -32,17 +32,14 @@ body {
   margin: 0 auto;
   position: relative;
   overflow: hidden;
+  padding-bottom: 10vh;
 
   h1 {
     width: 100%;
     font-size: clamp(100px, 12vw, 15vw);
     font-weight: bold;
-    //margin-bottom: 10vh;
-    /* max-width: 70vw; */
-    //text-transform: uppercase;
     font-family: "Anton", sans-serif;
     color: #111;
-    //float: left;
     text-align: left;
     margin-top: 13vh;
   }
@@ -51,13 +48,16 @@ body {
     margin-left: 75px;
     padding-left: 10px;
     border-left: 1px solid rgb(116, 116, 116);
-    width: calc(100vw - 126px); //margin, padding and border
+    width: calc(100vw - 126px);
   }
+
   @include mq("phone", max) {
     h1 {
       font-size: clamp(85px, 12vw, 15vw);
     }
   }
+
+
 }
 
 .absolute {

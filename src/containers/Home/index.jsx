@@ -25,6 +25,7 @@ const Intro = () => {
     <>
       <AnimaionContext.Provider value={{ setCurrentBg }}>
         <div ref={appRef}>
+        
           <div
             className="main-container"
             id="main-container"
