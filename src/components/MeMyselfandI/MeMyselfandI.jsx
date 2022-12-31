@@ -87,7 +87,7 @@ const MeMyselfandI = () => {
               cursor: "pointer",
             }}
           >
-            Let's make something special
+            Let's make something special !
           </Link>
         </p>
       </div>
