@@ -23,7 +23,7 @@ const SkillsIntro = () => {
           <Icon icon="carbon:arrow-down-right" className="arrow" />
         </motion.div>
         <div>
-          <Marquee text="Web-Development" />
+          <Marquee text="Full Stack Web Devloper" />
           <Marquee text="Cloud Computing" />
           <Marquee text="UI/UX Designer" />
         </div>
