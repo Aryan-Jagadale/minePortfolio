@@ -76,7 +76,7 @@ const MenuContent = () => {
 
             {externalLinks.map((link) => (
               <li key={link.url}>
-                <a target="_blank" rel="noreferrer" href={link.url}>
+                <a target="_blank" rel="noreferrer" href={link.url} key={link.url}>
                   {link.component}
                 </a>
               </li>
