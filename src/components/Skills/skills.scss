@@ -5,7 +5,7 @@
 .skills-wrapper {
     width: calc(100vw - 50px); 
     position: relative;
-    
+    padding-bottom: 10vh;
     .big-wrapper {
         display: flex;
         width: 100%;
@@ -119,7 +119,7 @@
         padding-left: 10px;
         border-left: 1px solid rgb(116, 116, 116);
         width: calc(100vw - 126px); //margin, padding and border
-        padding-bottom: 10vh;
+        //padding-bottom: 10vh;
     }
 
    @media (max-width:768px) {
@@ -153,6 +153,16 @@
         }
     }
 
+    @include mq("phone", max) {
+        .big-wrapper{
+            .left-wrap{
+                h2{
+                font-size: clamp(3rem, 7vw, 15vw);
+
+                }
+            }
+        }
+    }
 
 
 

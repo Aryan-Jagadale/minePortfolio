@@ -3,14 +3,12 @@
 @import "../../styles/mixins";
 
 .me-wrapper {
-    width: calc(100vw - 50px); //margin, padding and border
-
+    width: calc(100vw - 50px);
     padding-top: 10vh;
-
     position: relative;
     display: flex;
     justify-content: center;
-
+    padding-bottom: 20vh;
     .me-division {
         .me-title {
             text-align: center;
@@ -27,8 +25,6 @@
             font-size: 16px;
             line-height: 1.5rem;
             margin-bottom: 2vh;
-            //max-width: 60vw;
-            //text-transform: uppercase;
             font-family: "Poppins", sans-serif;
             color: #b2b2b2;
         }
@@ -38,8 +34,6 @@
             font-size: 16px;
             line-height: 1.5rem;
             margin-bottom: 2vh;
-            //max-width: 60vw;
-            //text-transform: uppercase;
             font-family: "Poppins", sans-serif;
             color: #111;
             cursor: pointer;
@@ -48,18 +42,15 @@
     }
 
     @include mq("tablet", min) {
-        //text-align: left;
         margin-left: 75px;
         padding-left: 10px;
         border-left: 1px solid rgb(116, 116, 116);
         width: calc(100vw - 126px); //margin, padding and border
-        padding-bottom: 20vh;
+        //padding-bottom: 20vh;
     }
     @include mq("tablet-wide", max) {
         display: block;
-        //margin: 0 25px;
         .me-division {
-            //width: 100vw;
             .me-title {
                 text-align: left;
             }
@@ -77,13 +68,18 @@
     }
 
     @include mq("phone-wide", max) {
-            .me-division{
-                .me-title{
+        .me-division {
+            .me-title {
                 font-size: clamp(4rem, 7vw, 15vw);
-
-                }
             }
-
+        }
     }
-
+    
+    @include mq("phone", max) {
+        .me-division {
+            .me-title {
+                font-size: clamp(3rem, 7vw, 15vw);
+            }
+        }
+    }
 }
