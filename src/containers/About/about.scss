@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import "../../styles/mixins.scss";
+
+
+
+.about-container{
+    height: 100vh;
+    display: flex;
+    align-items: flex-end;
+    width: calc(100vw - 50px);
+    margin: 0 auto;
+    position: relative;
+
+    h1 {
+        font-size: clamp(100px, 12vw, 15vw);
+        font-weight: bold;
+        margin-bottom: 10vh;
+        max-width: 70vw;
+        font-family: "Anton", sans-serif;
+        color: #111;
+    }
+    
+
+
+    @include mq("tablet", min) {
+        margin-left: 75px;
+        padding-left: 10px;
+        border-left: 1px solid rgb(116, 116, 116);
+        width: calc(100vw - 126px);
+    }
+}

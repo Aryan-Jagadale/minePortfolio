@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import "../../styles/mixins.scss";
+
+
+.me-wrapper {
+    width: calc(100vw - 50px);
+    padding-top: 10vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20vh;
+    .me-division {
+        .me-title {
+            text-align: center;
+            font-size: clamp(5rem, 7vw, 15vw);
+            font-weight: bold;
+            margin-bottom: 8vh;
+            font-family: "Poppins", sans-serif;
+            color: #111;
+            overflow-wrap: break-word;
+        }
+        .me-para {
+            text-align: center;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 1.5rem;
+            margin-bottom: 2vh;
+            font-family: "Poppins", sans-serif;
+            color: #b2b2b2;
+        }
+        .me-para:last-child {
+            text-align: center;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 1.5rem;
+            margin-bottom: 2vh;
+            font-family: "Poppins", sans-serif;
+            color: #111;
+            cursor: pointer;
+            text-decoration: underline;
+        }
+    }
+
+    @include mq("tablet", min) {
+        margin-left: 75px;
+        padding-left: 10px;
+        border-left: 1px solid rgb(116, 116, 116);
+        width: calc(100vw - 126px); //margin, padding and border
+        //padding-bottom: 20vh;
+    }
+    @include mq("tablet-wide", max) {
+        display: block;
+        .me-division {
+            .me-title {
+                text-align: left;
+            }
+            .me-para {
+                text-align: left;
+            }
+            .me-para:last-child {
+                text-align: left;
+                margin: 0;
+            }
+        }
+    }
+    @include mq("tablet", max) {
+        margin: 0 25px;
+    }
+
+    @include mq("phone-wide", max) {
+        .me-division {
+            .me-title {
+                font-size: clamp(4rem, 7vw, 15vw);
+            }
+        }
+    }
+    
+    @include mq("phone", max) {
+        .me-division {
+            .me-title {
+                font-size: clamp(3rem, 7vw, 15vw);
+            }
+        }
+    }
+}

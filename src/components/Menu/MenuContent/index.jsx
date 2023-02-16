@@ -16,7 +16,7 @@ const internalLinks = [
     component: <span>Resume</span>,
   },
   {
-    url: "#3",
+    url: "/aboutme",
     component: <span>About Me</span>,
   },
   {
