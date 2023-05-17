@@ -6,6 +6,7 @@ import Skills from "../../components/Skills/Skills";
 import { gsap, ScrollTrigger, Draggable, MotionPathPlugin } from "gsap/all";
 import AnimaionContext from "../../context/animation-context";
 import Footer from "../../components/Footer/Footer";
+import Portfolio from "../../components/Portfolio/Portfolio";
 
 gsap.registerPlugin(ScrollTrigger, Draggable, MotionPathPlugin);
 
@@ -35,11 +36,13 @@ const Intro = () => {
               Hello <br /> I am A<span>a</span>RYAN
             </h1>
             <SkillsIntro />
+            
 
             <ContactButton />
           </div>
 
           <MeMyselfandI />
+          <Portfolio/>
           <Skills />
           <Footer/>
         </div>

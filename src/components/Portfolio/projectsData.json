@@ -1,0 +1,14 @@
+[
+    {
+      "title": "Bike Buddy",
+      "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80",
+      "description": "I was responsible for the routing functionality of Bike Buddy, an application that helps parents and guardians keep their children safe while cycling. Utilises the Leaflet.js library and TomTom Routing/Reverse Geolocation API's to create an interactive and visually appealing map that allows a user to plot a route, taking into account various factors such as traffic levels, bicycle lanes, and elevation.",
+      "technologies": "Leaflet | jQuery | Bootstrap",
+      "github": "https://github.com/mdyeates/bike-buddy",
+      "deployed": "https://norrinradd8.github.io/bike_buddy/",
+      "bgcolor": "#f37737",
+      "id": "1"
+    }
+    
+    
+  ]
