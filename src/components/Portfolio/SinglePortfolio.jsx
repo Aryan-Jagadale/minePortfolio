@@ -21,11 +21,11 @@ const SinglePortfolio = ({
       <h4>{title}</h4>
 
       <div className="see-live">
-        <a href={github} target="_blank">
+        <a href={github} target="_blank" rel="noreferrer">
           Github
         </a>
 
-        <a href={deployed} target="_blank">
+        <a href={deployed} target="_blank" rel="noreferrer">
           See live
         </a>
       </div>
