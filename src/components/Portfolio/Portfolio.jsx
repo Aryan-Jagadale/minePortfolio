@@ -3,6 +3,7 @@ import "./style.scss";
 import { gsap, ScrollTrigger, Draggable, MotionPathPlugin } from "gsap/all";
 import projectData from "./projectsData.json";
 import SinglePortfolio from "./SinglePortfolio";
+import "./card.scss";
 
 gsap.registerPlugin(ScrollTrigger, Draggable, MotionPathPlugin);
 
@@ -26,8 +27,12 @@ const Portfolio = () => {
     <>
       <div className="me-wrapper">
         <div className="me-division">
-          <h2 className="me-title">Portfolio</h2>
+          <h2 className="me-title">Projects</h2>
+          <div className="me-grid">
+          
           <ProjectList />
+          
+          </div>
           </div>
 
       </div>

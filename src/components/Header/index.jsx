@@ -35,15 +35,3 @@ const Header = () => {
 };
 
 export default Header;
-/*
-
-
-position: fixed;
-    z-index: 11;
-    top: 100px;
-    right: 10vw;
-    max-width: 120px;
-
-
-
-*/

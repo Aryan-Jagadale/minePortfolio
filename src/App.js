@@ -1,4 +1,3 @@
-//import { useEffect, useState } from "react";
 import Header from "./components/Header";
 import "./styles/home.scss";
 import MenuManager from "./components/Menu/MenuManager";
