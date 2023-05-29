@@ -60,7 +60,6 @@ const ContactForm = () => {
 
   return (
     <div ref={secondRef} className="form-container">
-      {/*Form  ServiceId --- service_1ko88ke,templated id---template_ul04cnf  */}
       <div className="form-text">
         <p ref={textRef} className="form-text-para">
           I’m interested in freelance opportunities – especially ambitious or
