@@ -17,9 +17,9 @@ $card-shine-opacity: 0.1;
 $card-shine-gradient: conic-gradient(
   from 205deg at 50% 50%,
   rgba(16, 185, 129, 0) 0deg,
-  #10b981 25deg,
-  rgba(52, 211, 153, 0.18) 295deg,
-  rgba(16, 185, 129, 0) 360deg
+  #d1d1d1 25deg,
+  rgba(147, 147, 147, 0.18) 295deg,
+  rgba(79, 79, 79, 0) 360deg
 );
 $card-line-color: #2a2b2c;
 $card-tile-color: rgba(16, 185, 129, 0.05);
@@ -31,9 +31,9 @@ $card-hover-box-shadow-1-blur: 10px;
 $card-hover-box-shadow-2: rgba(0, 0, 0, 0.3);
 $card-hover-box-shadow-2-y: 15px;
 $card-hover-box-shadow-2-blur: 25px;
-$card-hover-icon-color: #34d399;
+$card-hover-icon-color: #ffffff;
 $card-hover-icon-background-color: rgba(52, 211, 153, 0.1);
-$card-hover-icon-border-color: rgba(52, 211, 153, 0.2);
+$card-hover-icon-border-color: rgba(8, 8, 8, 0.2);
 
 $blur-opacity: 0.01;
 

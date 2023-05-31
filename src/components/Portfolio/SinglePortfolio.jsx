@@ -9,11 +9,11 @@ const SinglePortfolio = ({
   description,
 }) => {
   return (
-    <div className="card">
+    <div className="card" key={id}>
       <span className="icon">
         <img
-          src="https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg"
-          alt="Nodejs"
+          src={image}
+          alt={title}
           loading="lazy"
         />
       </span>

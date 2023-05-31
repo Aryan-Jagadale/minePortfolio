@@ -1,14 +1,29 @@
 [
-    {
-      "title": "CravePizza",
-      "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80",
-      "description": "I collaborated closely with a cross-functional team to create a dynamic and user-friendly e-commerce platform. The website featured a comprehensive product catalog, intuitive search and filtering functionalities, and a secure payment system, ensuring a seamless and secure shopping experience for customers.My role involved developing the front-end interface using modern web technologies such as HTML, CSS, and JavaScript. I implemented responsive design principles, enabling the website to adapt seamlessly to different devices and screen sizes. Additionally, I integrated third-party APIs and payment gateways to facilitate secure and convenient transactions.",
-      "technologies": "ExpressJS | MongoDB | SCSS",
-      "github": "https://github.com/Aryan-Jagadale/CravePizza-Your-Ultimate-Online-Pizza-Haven",
-      "deployed": "https://pizza-store-9n2j.onrender.com",
-      "id": "1"
-    }
-    
-    
-    
-  ]
+  {
+    "title": "CravePizza",
+    "image": "https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg",
+    "description":"Worked closely with a cross-functional team to build an e-commerce platform with a user-friendly interface. Developed the front-end using HTML, CSS, and JavaScript, ensuring responsive design for all devices. Integrated APIs and payment gateways for seamless and secure transactions.",
+    "technologies": "ExpressJS | MongoDB | SCSS",
+    "github": "https://github.com/Aryan-Jagadale/CravePizza-Your-Ultimate-Online-Pizza-Haven",
+    "deployed": "https://pizza-store-9n2j.onrender.com",
+    "id": "1"
+  },
+  {
+    "title": "TedxVITPune",
+    "image": "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg",
+    "description": "TEDxVITPune, one of Pune's earliest TEDx events, has become a premier platform for promoting 'Ideas Worth Spreading' in the local community. With nine successful editions, this one-day event brings together visionaries, thinkers, and doers from diverse fields, sparking discussions and driving meaningful change. Renowned speakers like Amira Gill, Avinash Ramanathan, Mahesh Kale, and more have graced the stage, earning TEDxVITPune widespread acclaim as an exemplary TEDx event in India.",
+    "technologies": "NextJS | Tailwind CSS",
+    "github": "https://github.com/Aryan-Jagadale/tedxweb2023",
+    "deployed": "https://www.tedxvitpune.in/",
+    "id": "2"
+  },
+  {
+    "title": "Dental College, Ahmednagar",
+    "image": "https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg",
+    "description":"Welcome to the Dental College of Shri. Yashwantrao Chavan Memorial Medical and Rural Development Foundation. Established in 2007, this esteemed institution stands as one of Ahmednagar's premier dental colleges in India. It pays tribute to the memory of Shri. Yashwantrao-ji Chavan, the visionary behind Maharashtra State, a former Chief Minister, and a pioneer in the Co-operative and Panchayat Raj movements in Maharashtra.In a nutshell, our Dental College is committed to bridging the gap in healthcare and education, addressing the needs of the underprivileged communities in this region.",
+    "technologies": "ReactJS | JSON | WordPress",
+    "github": "https://github.com/Aryan-Jagadale/ycdental",
+    "deployed": "https://yashdental.org/",
+    "id": "3"
+  }
+]

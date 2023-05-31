@@ -9,9 +9,9 @@ gsap.registerPlugin(ScrollTrigger, Draggable, MotionPathPlugin);
 
 const Portfolio = () => {
   const ProjectList = () =>
-    projectData.map((project, i) => (
+    projectData.map((project) => (
       <SinglePortfolio
-        key={i}
+        key={project.id}
         id={project.id}
         title={project.title}
         technologies={project.technologies}
@@ -29,12 +29,9 @@ const Portfolio = () => {
         <div className="me-division">
           <h2 className="me-title">Projects</h2>
           <div className="me-grid">
-          
-          <ProjectList />
-          
+            <ProjectList />
           </div>
-          </div>
-
+        </div>
       </div>
     </>
   );
