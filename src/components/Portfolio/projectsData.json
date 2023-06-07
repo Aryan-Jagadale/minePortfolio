@@ -2,11 +2,20 @@
   {
     "title": "CravePizza",
     "image": "https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg",
-    "description":"Worked closely with a cross-functional team to build an e-commerce platform with a user-friendly interface. Developed the front-end using HTML, CSS, and JavaScript, ensuring responsive design for all devices. Integrated APIs and payment gateways for seamless and secure transactions.",
+    "description": "Worked closely with a cross-functional team to build an e-commerce platform with a user-friendly interface. Developed the front-end using HTML, CSS, and JavaScript, ensuring responsive design for all devices. Integrated APIs and payment gateways for seamless and secure transactions.",
     "technologies": "ExpressJS | MongoDB | SCSS",
     "github": "https://github.com/Aryan-Jagadale/CravePizza-Your-Ultimate-Online-Pizza-Haven",
     "deployed": "https://pizza-store-9n2j.onrender.com",
     "id": "1"
+  },
+  {
+    "title": "ITMS - Collage ERP System",
+    "image": "https://www.vectorlogo.zone/logos/mongodb/mongodb-icon.svg",
+    "description":"The College ERP System website is designed for Government Polytechnic Awasari College. It is built using the MERN stack.",
+    "technologies": "MongoDB | ReactJS | NodeJS (MERN)",
+    "github": "https://github.com/Aryan-Jagadale/Google-stories-gsap",
+    "deployed": "",
+    "id": "2"
   },
   {
     "title": "TedxVITPune",
@@ -15,25 +24,24 @@
     "technologies": "NextJS | Tailwind CSS",
     "github": "https://github.com/Aryan-Jagadale/tedxweb2023",
     "deployed": "https://www.tedxvitpune.in/",
-    "id": "2"
+    "id": "3"
   },
   {
     "title": "Dental College, Ahmednagar",
     "image": "https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg",
-    "description":"Welcome to the Dental College of Shri. Yashwantrao Chavan Memorial Medical and Rural Development Foundation. Established in 2007, this esteemed institution stands as one of Ahmednagar's premier dental colleges in India. It pays tribute to the memory of Shri. Yashwantrao-ji Chavan, the visionary behind Maharashtra State, a former Chief Minister, and a pioneer in the Co-operative and Panchayat Raj movements in Maharashtra.In a nutshell, our Dental College is committed to bridging the gap in healthcare and education, addressing the needs of the underprivileged communities in this region.",
+    "description": "Welcome to the Dental College of Shri. Yashwantrao Chavan Memorial Medical and Rural Development Foundation. Established in 2007, this esteemed institution stands as one of Ahmednagar's premier dental colleges in India. It pays tribute to the memory of Shri. Yashwantrao-ji Chavan, the visionary behind Maharashtra State, a former Chief Minister, and a pioneer in the Co-operative and Panchayat Raj movements in Maharashtra.In a nutshell, our Dental College is committed to bridging the gap in healthcare and education, addressing the needs of the underprivileged communities in this region.",
     "technologies": "ReactJS | JSON | WordPress",
     "github": "https://github.com/Aryan-Jagadale/ycdental",
     "deployed": "https://yashdental.org/",
-    "id": "3"
+    "id": "4"
   },
   {
     "title": "Brand ASAP(Learning Project)",
     "image": "https://www.vectorlogo.zone/logos/gatsbyjs/gatsbyjs-icon.svg",
-    "description":"During my journey as a web developer, I embarked on a personal learning project to expand my skills and explore new technologies. For this purpose, I chose to work on a project that involved utilizing GSAP (GreenSock Animation Platform) to enhance the user experience and create captivating animations.In this project, I focused on mastering GSAP, a powerful JavaScript animation library known for its flexibility and performance. I integrated GSAP into a web application, leveraging its features to bring elements to life, create smooth transitions, and add visually appealing effects.",
+    "description": "During my journey as a web developer, I embarked on a personal learning project to expand my skills and explore new technologies. For this purpose, I chose to work on a project that involved utilizing GSAP (GreenSock Animation Platform) to enhance the user experience and create captivating animations.In this project, I focused on mastering GSAP, a powerful JavaScript animation library known for its flexibility and performance. I integrated GSAP into a web application, leveraging its features to bring elements to life, create smooth transitions, and add visually appealing effects.",
     "technologies": "Gatsby | GSAP  | SCSS",
     "github": "https://github.com/Aryan-Jagadale/Google-stories-gsap",
     "deployed": "https://brand-asap.netlify.app/",
-    "id": "4"
+    "id": "5"
   }
-
 ]
