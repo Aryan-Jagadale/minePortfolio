@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { GitHub, Hash, Hexagon, Instagram, Linkedin, Mail, Twitter } from "react-feather";
+import { GitHub, Hexagon, Instagram, Linkedin, Mail, Twitter } from "react-feather";
 import "./style.scss";
 import { MenuContext } from "../MenuManager";
 import cn from "classnames";
