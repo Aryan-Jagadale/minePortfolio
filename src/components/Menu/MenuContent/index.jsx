@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { GitHub, Instagram, Linkedin, Mail, Twitter } from "react-feather";
+import { GitHub, Hash, Hexagon, Instagram, Linkedin, Mail, Twitter } from "react-feather";
 import "./style.scss";
 import { MenuContext } from "../MenuManager";
 import cn from "classnames";
@@ -41,6 +41,10 @@ const externalLinks = [
   {
     url: "https://github.com/Aryan-Jagadale",
     component: <GitHub />,
+  },
+  {
+    url: "https://hashnode.com/@AaryanJagadae",
+    component: <Hexagon />,
   },
   {
     url: "mailto:aryansjagadale@gmail.com",

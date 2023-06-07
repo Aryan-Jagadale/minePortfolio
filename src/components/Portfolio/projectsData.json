@@ -25,5 +25,15 @@
     "github": "https://github.com/Aryan-Jagadale/ycdental",
     "deployed": "https://yashdental.org/",
     "id": "3"
+  },
+  {
+    "title": "Brand ASAP(Learning Project)",
+    "image": "https://www.vectorlogo.zone/logos/gatsbyjs/gatsbyjs-icon.svg",
+    "description":"During my journey as a web developer, I embarked on a personal learning project to expand my skills and explore new technologies. For this purpose, I chose to work on a project that involved utilizing GSAP (GreenSock Animation Platform) to enhance the user experience and create captivating animations.In this project, I focused on mastering GSAP, a powerful JavaScript animation library known for its flexibility and performance. I integrated GSAP into a web application, leveraging its features to bring elements to life, create smooth transitions, and add visually appealing effects.",
+    "technologies": "Gatsby | GSAP  | SCSS",
+    "github": "https://github.com/Aryan-Jagadale/Google-stories-gsap",
+    "deployed": "https://brand-asap.netlify.app/",
+    "id": "4"
   }
+
 ]
