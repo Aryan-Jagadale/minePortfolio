@@ -1,3 +1,5 @@
+
+
 [
   {
     "title": "CravePizza",
@@ -9,27 +11,27 @@
     "id": "1"
   },
   {
-    "title": "ITMS - Collage ERP System",
-    "image": "https://www.vectorlogo.zone/logos/mongodb/mongodb-icon.svg",
+    "title": "ITMS - Collage ERP System (Freelance)",
+    "image": "https://res.cloudinary.com/ddaalka6i/image/upload/v1686739182/portfolio/itms_jtuwvb.png",
     "description":"The College ERP System website is designed for Government Polytechnic Awasari College. It is built using the MERN stack.",
     "technologies": "MongoDB | ReactJS | NodeJS (MERN)",
-    "github": "https://github.com/Aryan-Jagadale/Google-stories-gsap",
-    "deployed": "",
+    "github": "https://github.com/Aryan-Jagadale/ITMS-CollegeERPSystem",
+    "deployed": "https://main.d4tu6cmlssl0k.amplifyapp.com/",
     "id": "2"
   },
   {
     "title": "TedxVITPune",
     "image": "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg",
-    "description": "TEDxVITPune, one of Pune's earliest TEDx events, has become a premier platform for promoting 'Ideas Worth Spreading' in the local community. With nine successful editions, this one-day event brings together visionaries, thinkers, and doers from diverse fields, sparking discussions and driving meaningful change. Renowned speakers like Amira Gill, Avinash Ramanathan, Mahesh Kale, and more have graced the stage, earning TEDxVITPune widespread acclaim as an exemplary TEDx event in India.",
+    "description":"TEDxVITPune is an independently organised TED event with the mission is to learn, share and discuss “Ideas. Worth Spreading” that have the power and potential to make a difference. The event is organized completely by students.",
     "technologies": "NextJS | Tailwind CSS",
     "github": "https://github.com/Aryan-Jagadale/tedxweb2023",
     "deployed": "https://www.tedxvitpune.in/",
     "id": "3"
   },
   {
-    "title": "Dental College, Ahmednagar",
-    "image": "https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg",
-    "description": "Welcome to the Dental College of Shri. Yashwantrao Chavan Memorial Medical and Rural Development Foundation. Established in 2007, this esteemed institution stands as one of Ahmednagar's premier dental colleges in India. It pays tribute to the memory of Shri. Yashwantrao-ji Chavan, the visionary behind Maharashtra State, a former Chief Minister, and a pioneer in the Co-operative and Panchayat Raj movements in Maharashtra.In a nutshell, our Dental College is committed to bridging the gap in healthcare and education, addressing the needs of the underprivileged communities in this region.",
+    "title": "Dental College, Ahmednagar (Freelance)",
+    "image": "https://res.cloudinary.com/ddaalka6i/image/upload/v1686739627/portfolio/ycdc_ejvkkl.jpg",
+    "description":"Dental College of Shri. Yashwantrao Chavan Memorial Medical and Rural Development Foundation. Established in 2007, this esteemed institution stands as one of Ahmednagar's premier dental colleges in India. It pays tribute to the memory of Shri. Yashwantrao-ji Chavan",
     "technologies": "ReactJS | JSON | WordPress",
     "github": "https://github.com/Aryan-Jagadale/ycdental",
     "deployed": "https://yashdental.org/",
@@ -38,9 +40,8 @@
   {
     "title": "Brand ASAP(Learning Project)",
     "image": "https://www.vectorlogo.zone/logos/gatsbyjs/gatsbyjs-icon.svg",
-    "description": "During my journey as a web developer, I embarked on a personal learning project to expand my skills and explore new technologies. For this purpose, I chose to work on a project that involved utilizing GSAP (GreenSock Animation Platform) to enhance the user experience and create captivating animations.In this project, I focused on mastering GSAP, a powerful JavaScript animation library known for its flexibility and performance. I integrated GSAP into a web application, leveraging its features to bring elements to life, create smooth transitions, and add visually appealing effects.",
-    "technologies": "Gatsby | GSAP  | SCSS",
-    "github": "https://github.com/Aryan-Jagadale/Google-stories-gsap",
+    "description": "During my journey as a web developer, I embarked on a personal learning project to expand my skills and explore new technologies. For this purpose, I chose to work on a project that involved utilizing GSAP.",
+    "github": "https://github.com/Aryan-Jagadale/brand-stories-gsap",
     "deployed": "https://brand-asap.netlify.app/",
     "id": "5"
   }

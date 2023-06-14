@@ -15,6 +15,7 @@ const SinglePortfolio = ({
           src={image}
           alt={title}
           loading="lazy"
+          className="img-card"
         />
       </span>
 

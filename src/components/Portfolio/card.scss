@@ -62,6 +62,11 @@ $blur-opacity: 0.01;
     position: relative;
     display: table;
     padding: 8px;
+    
+    .img-card{
+      height: 64px;
+      width: 64px;
+    }
 
     &::after {
       content: "";
@@ -85,37 +90,33 @@ $blur-opacity: 0.01;
       transition: color 0.25s;
     }
   }
-  
 
-    h4 {
+  h4 {
+    z-index: 2;
+    position: relative;
+    margin: 12px 0 4px 0;
+    font-weight: bold;
+    line-height: 2;
+    font-size: clamp(2rem, 1vw, 15vw);
+    color: $card-label-color;
+    font-family: "Poppins", sans-serif;
+  }
+  .see-live {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
+    a {
       z-index: 2;
-      position: relative;
-      margin: 12px 0 4px 0;
-      font-weight: bold;
-      line-height: 2;
-      font-size: clamp(2rem, 1vw, 15vw);
-      color: $card-label-color;
+
+      width: 50%;
+      cursor: pointer;
       font-family: "Poppins", sans-serif;
+      color: #ffffff;
+      text-decoration: underline;
     }
-    .see-live{
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      width: 100%;
-
-      a {
-      z-index: 2;
-
-        width: 50%;
-        cursor: pointer;
-        font-family: "Poppins", sans-serif;
-        color: #ffffff;
-        text-decoration: underline;
-      }
-
-    }
-    
-  
+  }
 
   h6 {
     z-index: 2;
