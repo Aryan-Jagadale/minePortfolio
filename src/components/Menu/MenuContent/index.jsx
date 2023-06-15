@@ -1,5 +1,12 @@
 import React, { useContext } from "react";
-import { GitHub, Hexagon, Instagram, Linkedin, Mail, Twitter } from "react-feather";
+import {
+  GitHub,
+  Hexagon,
+  Instagram,
+  Linkedin,
+  Mail,
+  Twitter,
+} from "react-feather";
 import "./style.scss";
 import { MenuContext } from "../MenuManager";
 import cn from "classnames";
@@ -22,6 +29,10 @@ const internalLinks = [
   {
     url: "/collab",
     component: <span>Collab</span>,
+  },
+  {
+    url: "https://aaryansj.hashnode.dev/",
+    component: <span>Blogs</span>,
   },
 ];
 
@@ -64,29 +75,43 @@ const MenuContent = () => {
               return (
                 <>
                   <li key={link.url}>
-                    <Link
-                      to={link.url}
-                      onClick={() => setOpen(!open)}
-                      key={link.url}
-                    >
-                      {link.component}
-                    </Link>
+                    {link.url.startsWith("https") ? (
+                      <a
+                        href={link.url}
+                        onClick={() => setOpen(!open)}
+                        key={link.url}
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        {link.component}
+                      </a>
+                    ) : (
+                      <Link
+                        to={link.url}
+                        onClick={() => setOpen(!open)}
+                        key={link.url}
+                      >
+                        {link.component}
+                      </Link>
+                    )}
                   </li>
                 </>
               );
             })}
           </ul>
           <ul className="external-nav-links">
-
             {externalLinks.map((link) => (
               <li key={link.url}>
-                <a target="_blank" rel="noreferrer" href={link.url} key={link.url}>
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href={link.url}
+                  key={link.url}
+                >
                   {link.component}
                 </a>
               </li>
             ))}
-
-
           </ul>
         </div>
       </div>

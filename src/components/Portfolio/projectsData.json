@@ -2,7 +2,7 @@
 
 [
   {
-    "title": "CravePizza",
+    "title": "Change",
     "image": "https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg",
     "description": "Worked closely with a cross-functional team to build an e-commerce platform with a user-friendly interface. Developed the front-end using HTML, CSS, and JavaScript, ensuring responsive design for all devices. Integrated APIs and payment gateways for seamless and secure transactions.",
     "technologies": "ExpressJS | MongoDB | SCSS",
@@ -11,13 +11,31 @@
     "id": "1"
   },
   {
+    "title": "Dental College, Ahmednagar (Freelance)",
+    "image": "https://res.cloudinary.com/ddaalka6i/image/upload/v1686739627/portfolio/ycdc_ejvkkl.jpg",
+    "description":"Dental College of Shri. Yashwantrao Chavan Memorial Medical and Rural Development Foundation. Established in 2007, this esteemed institution stands as one of Ahmednagar's premier dental colleges in India. It pays tribute to the memory of Shri. Yashwantrao-ji Chavan",
+    "technologies": "ReactJS | JSON | WordPress",
+    "github": "https://github.com/Aryan-Jagadale/ycdental",
+    "deployed": "https://yashdental.org/",
+    "id": "2"
+  },
+  {
+    "title": "CravePizza",
+    "image": "https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg",
+    "description": "Worked closely with a cross-functional team to build an e-commerce platform with a user-friendly interface. Developed the front-end using HTML, CSS, and JavaScript, ensuring responsive design for all devices. Integrated APIs and payment gateways for seamless and secure transactions.",
+    "technologies": "ExpressJS | MongoDB | SCSS",
+    "github": "https://github.com/Aryan-Jagadale/CravePizza-Your-Ultimate-Online-Pizza-Haven",
+    "deployed": "https://pizza-store-9n2j.onrender.com",
+    "id": "3"
+  },
+  {
     "title": "ITMS - Collage ERP System (Freelance)",
     "image": "https://res.cloudinary.com/ddaalka6i/image/upload/v1686739182/portfolio/itms_jtuwvb.png",
     "description":"The College ERP System website is designed for Government Polytechnic Awasari College. It is built using the MERN stack.",
     "technologies": "MongoDB | ReactJS | NodeJS (MERN)",
     "github": "https://github.com/Aryan-Jagadale/ITMS-CollegeERPSystem",
     "deployed": "https://main.d4tu6cmlssl0k.amplifyapp.com/",
-    "id": "2"
+    "id": "4"
   },
   {
     "title": "TedxVITPune",
@@ -26,23 +44,15 @@
     "technologies": "NextJS | Tailwind CSS",
     "github": "https://github.com/Aryan-Jagadale/tedxweb2023",
     "deployed": "https://www.tedxvitpune.in/",
-    "id": "3"
+    "id": "5"
   },
-  {
-    "title": "Dental College, Ahmednagar (Freelance)",
-    "image": "https://res.cloudinary.com/ddaalka6i/image/upload/v1686739627/portfolio/ycdc_ejvkkl.jpg",
-    "description":"Dental College of Shri. Yashwantrao Chavan Memorial Medical and Rural Development Foundation. Established in 2007, this esteemed institution stands as one of Ahmednagar's premier dental colleges in India. It pays tribute to the memory of Shri. Yashwantrao-ji Chavan",
-    "technologies": "ReactJS | JSON | WordPress",
-    "github": "https://github.com/Aryan-Jagadale/ycdental",
-    "deployed": "https://yashdental.org/",
-    "id": "4"
-  },
+  
   {
     "title": "Brand ASAP(Learning Project)",
     "image": "https://www.vectorlogo.zone/logos/gatsbyjs/gatsbyjs-icon.svg",
     "description": "During my journey as a web developer, I embarked on a personal learning project to expand my skills and explore new technologies. For this purpose, I chose to work on a project that involved utilizing GSAP.",
     "github": "https://github.com/Aryan-Jagadale/brand-stories-gsap",
     "deployed": "https://brand-asap.netlify.app/",
-    "id": "5"
+    "id": "6"
   }
 ]

@@ -70,7 +70,7 @@ const ContactForm = () => {
         <form className="form-submit" ref={formRef} onSubmit={sendEmail}>
           <div className="form-name-email">
             <div className="fne-1">
-              <input placeholder="Name" type="text" name="name" required />
+              <input placeholder="What's your name?" type="text" name="name" required />
             </div>
 
             <div className="fne-2">
@@ -79,12 +79,12 @@ const ContactForm = () => {
           </div>
 
           <div className="form-subject">
-            <input placeholder="Subject" type="text" name="subject" required />
+            <input placeholder="What is this regarding>" type="text" name="subject" required />
           </div>
 
           <div className="form-message">
             <textarea
-              placeholder="Message"
+              placeholder="How can I help?"
               type="text"
               rows={"20"}
               name="message"
