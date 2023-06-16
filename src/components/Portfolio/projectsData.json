@@ -1,23 +1,30 @@
-
-
 [
+  {
+    "title": "Microservices(Learning Project)",
+    "image": "https://res.cloudinary.com/ddaalka6i/image/upload/v1686909444/portfolio/Header-MS-v1-removebg-preview_qa0yqz.png",
+    "description": "The project aimed to explore the practical implementation of microservice architecture using Docker. It also focused on the effective utilization of the Pub-Sub model within these microservices. Additionally, by leveraging RabbitMQ, the system was designed to handle service failures gracefully by storing pending data in the message queue provided by RabbitMQ. This endeavor provided a deeper understanding of Docker at an abstract level.",
+    "technologies": "ExpressJS | MongoDB | NodeJS | RabbitMQ",
+    "github": "https://github.com/Aryan-Jagadale/nodejs-microservices",
+    "deployed": null,
+    "id": "1"
+  },
   {
     "title": "Academy-Edu Platform",
     "image": "https://res.cloudinary.com/ddaalka6i/image/upload/v1686893053/portfolio/acdemy_nxmisq.png",
     "description": "Academy is an esteemed online educational platform that empowers teachers to seamlessly upload and share their expertly crafted courses on the internet. Our platform incorporates a robust Payment Integrated Service, leveraging the capabilities of the RazorPAY API, ensuring a secure and convenient payment experience. Furthermore, Academy utilizes the advanced cloud storage solution provided by Cloudinary to securely store and manage videos and avatars, guaranteeing optimal user experience.",
     "technologies": "ExpressJS | MongoDB | TailwindCSS | ReactJS",
-    "github": "https://academy.aaryanjagadale.tech/",
+    "github": "https://github.com/Aryan-Jagadale/Academy-Full-stack",
     "deployed": "https://academy.aaryanjagadale.tech/",
-    "id": "1"
+    "id": "2"
   },
   {
     "title": "Dental College, Ahmednagar (Freelance)",
     "image": "https://res.cloudinary.com/ddaalka6i/image/upload/v1686739627/portfolio/ycdc_ejvkkl.jpg",
-    "description":"Dental College of Shri. Yashwantrao Chavan Memorial Medical and Rural Development Foundation. Established in 2007, this esteemed institution stands as one of Ahmednagar's premier dental colleges in India. It pays tribute to the memory of Shri. Yashwantrao-ji Chavan",
+    "description": "Dental College of Shri. Yashwantrao Chavan Memorial Medical and Rural Development Foundation. Established in 2007, this esteemed institution stands as one of Ahmednagar's premier dental colleges in India. It pays tribute to the memory of Shri. Yashwantrao-ji Chavan",
     "technologies": "ReactJS | JSON | WordPress",
     "github": "https://github.com/Aryan-Jagadale/ycdental",
     "deployed": "https://yashdental.org/",
-    "id": "2"
+    "id": "3"
   },
   {
     "title": "CravePizza",
@@ -26,33 +33,33 @@
     "technologies": "ExpressJS | MongoDB | SCSS",
     "github": "https://github.com/Aryan-Jagadale/CravePizza-Your-Ultimate-Online-Pizza-Haven",
     "deployed": "https://pizza-store-9n2j.onrender.com",
-    "id": "3"
+    "id": "4"
   },
   {
     "title": "ITMS - Collage ERP System (Freelance)",
     "image": "https://res.cloudinary.com/ddaalka6i/image/upload/v1686739182/portfolio/itms_jtuwvb.png",
-    "description":"The College ERP System website is designed for Government Polytechnic Awasari College. It is built using the MERN stack.",
+    "description": "The College ERP System website is designed for Government Polytechnic Awasari College. It is built using the MERN stack.",
     "technologies": "MongoDB | ReactJS | NodeJS (MERN)",
     "github": "https://github.com/Aryan-Jagadale/ITMS-CollegeERPSystem",
     "deployed": "https://main.d4tu6cmlssl0k.amplifyapp.com/",
-    "id": "4"
+    "id": "5"
   },
   {
     "title": "TedxVITPune",
     "image": "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg",
-    "description":"TEDxVITPune is an independently organised TED event with the mission is to learn, share and discuss “Ideas. Worth Spreading” that have the power and potential to make a difference. The event is organized completely by students.",
+    "description": "TEDxVITPune is an independently organised TED event with the mission is to learn, share and discuss “Ideas. Worth Spreading” that have the power and potential to make a difference. The event is organized completely by students.",
     "technologies": "NextJS | Tailwind CSS",
     "github": "https://github.com/Aryan-Jagadale/tedxweb2023",
     "deployed": "https://www.tedxvitpune.in/",
-    "id": "5"
+    "id": "6"
   },
-  
+
   {
     "title": "Brand ASAP(Learning Project)",
     "image": "https://www.vectorlogo.zone/logos/gatsbyjs/gatsbyjs-icon.svg",
     "description": "During my journey as a web developer, I embarked on a personal learning project to expand my skills and explore new technologies. For this purpose, I chose to work on a project that involved utilizing GSAP.",
     "github": "https://github.com/Aryan-Jagadale/brand-stories-gsap",
     "deployed": "https://brand-asap.netlify.app/",
-    "id": "6"
+    "id": "7"
   }
 ]
