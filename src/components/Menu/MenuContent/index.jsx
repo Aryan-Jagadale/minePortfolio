@@ -19,7 +19,7 @@ const internalLinks = [
     component: <span>Home</span>,
   },
   {
-    url: "#2",
+    url: "https://res.cloudinary.com/ddaalka6i/image/upload/v1686912894/portfolio/Resume_stnyp1.pdf",
     component: <span>Resume</span>,
   },
   {
