@@ -2,12 +2,12 @@
 
 [
   {
-    "title": "Change",
-    "image": "https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg",
-    "description": "Worked closely with a cross-functional team to build an e-commerce platform with a user-friendly interface. Developed the front-end using HTML, CSS, and JavaScript, ensuring responsive design for all devices. Integrated APIs and payment gateways for seamless and secure transactions.",
-    "technologies": "ExpressJS | MongoDB | SCSS",
-    "github": "https://github.com/Aryan-Jagadale/CravePizza-Your-Ultimate-Online-Pizza-Haven",
-    "deployed": "https://pizza-store-9n2j.onrender.com",
+    "title": "Academy-Edu Platform",
+    "image": "https://res.cloudinary.com/ddaalka6i/image/upload/v1686893053/portfolio/acdemy_nxmisq.png",
+    "description": "Academy is an esteemed online educational platform that empowers teachers to seamlessly upload and share their expertly crafted courses on the internet. Our platform incorporates a robust Payment Integrated Service, leveraging the capabilities of the RazorPAY API, ensuring a secure and convenient payment experience. Furthermore, Academy utilizes the advanced cloud storage solution provided by Cloudinary to securely store and manage videos and avatars, guaranteeing optimal user experience.",
+    "technologies": "ExpressJS | MongoDB | TailwindCSS | ReactJS",
+    "github": "https://academy.aaryanjagadale.tech/",
+    "deployed": "https://academy.aaryanjagadale.tech/",
     "id": "1"
   },
   {
@@ -21,7 +21,7 @@
   },
   {
     "title": "CravePizza",
-    "image": "https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg",
+    "image": "https://res.cloudinary.com/ddaalka6i/image/upload/v1686893724/portfolio/pizza-removebg-preview_b8bxmd.png",
     "description": "Worked closely with a cross-functional team to build an e-commerce platform with a user-friendly interface. Developed the front-end using HTML, CSS, and JavaScript, ensuring responsive design for all devices. Integrated APIs and payment gateways for seamless and secure transactions.",
     "technologies": "ExpressJS | MongoDB | SCSS",
     "github": "https://github.com/Aryan-Jagadale/CravePizza-Your-Ultimate-Online-Pizza-Haven",
