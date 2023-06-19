@@ -1,6 +1,6 @@
 [
   {
-    "title": "Microservices(Learning Project)",
+    "title": "NanoServe",
     "image": "https://res.cloudinary.com/ddaalka6i/image/upload/v1686909444/portfolio/Header-MS-v1-removebg-preview_qa0yqz.png",
     "description": "The project aimed to explore the practical implementation of microservice architecture using Docker. It also focused on the effective utilization of the Pub-Sub model within these microservices. Additionally, by leveraging RabbitMQ, the system was designed to handle service failures gracefully by storing pending data in the message queue provided by RabbitMQ. This endeavor provided a deeper understanding of Docker at an abstract level.",
     "technologies": "ExpressJS | MongoDB | NodeJS | RabbitMQ",
@@ -55,7 +55,7 @@
   },
 
   {
-    "title": "Brand ASAP(Learning Project)",
+    "title": "Brand ASAP",
     "image": "https://www.vectorlogo.zone/logos/gatsbyjs/gatsbyjs-icon.svg",
     "description": "During my journey as a web developer, I embarked on a personal learning project to expand my skills and explore new technologies. For this purpose, I chose to work on a project that involved utilizing GSAP.",
     "github": "https://github.com/Aryan-Jagadale/brand-stories-gsap",
