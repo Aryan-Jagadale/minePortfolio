@@ -50,7 +50,7 @@
     "description": "TEDxVITPune is an independently organised TED event with the mission is to learn, share and discuss “Ideas. Worth Spreading” that have the power and potential to make a difference. The event is organized completely by students.",
     "technologies": "NextJS | Tailwind CSS",
     "github": "https://github.com/Aryan-Jagadale/tedxweb2023",
-    "deployed": "https://www.tedxvitpune.in/",
+    "deployed": "https://tedxvitpune2023.netlify.app/",
     "id": "6"
   },
 
