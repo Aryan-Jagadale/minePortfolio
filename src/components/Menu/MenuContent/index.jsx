@@ -19,7 +19,7 @@ const internalLinks = [
     component: <span>Home</span>,
   },
   {
-    url: "https://res.cloudinary.com/ddaalka6i/image/upload/v1688311893/portfolio/Latest_resume_vj3aag.pdf",
+    url: "https://flowcv.com/resume/nejwn24j9c",
     component: <span>Resume</span>,
   },
   {
