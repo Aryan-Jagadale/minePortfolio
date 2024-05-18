@@ -24,8 +24,8 @@ const SkillsIntro = () => {
         </motion.div>
         <div>
           <Marquee text="Full Stack Web Devloper" />
-          <Marquee text="Cloud Computing" />
-          <Marquee text="UI/UX Designer" />
+          <Marquee text="AWS Services" />
+          
         </div>
       </div>
     </>

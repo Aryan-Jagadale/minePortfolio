@@ -7,9 +7,12 @@ const SinglePortfolio = ({
   github,
   deployed,
   description,
+  show = true
 }) => {
   return (
-    <div className="card" key={id}>
+    <div className="card" style={{
+      display:!show  ? "none":""  
+    }} key={id}>
       <span className="icon">
         <img
           src={image}

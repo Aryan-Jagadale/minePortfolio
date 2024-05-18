@@ -1,20 +1,20 @@
 [
+
   {
-    "title": "NanoServe",
-    "image": "https://res.cloudinary.com/ddaalka6i/image/upload/v1686909444/portfolio/Header-MS-v1-removebg-preview_qa0yqz.png",
-    "description": "The project aimed to explore the practical implementation of microservice architecture using Docker. It also focused on the effective utilization of the Pub-Sub model within these microservices. Additionally, by leveraging RabbitMQ, the system was designed to handle service failures gracefully by storing pending data in the message queue provided by RabbitMQ. This endeavor provided a deeper understanding of Docker at an abstract level.",
-    "technologies": "ExpressJS | MongoDB | NodeJS | RabbitMQ",
-    "github": "https://github.com/Aryan-Jagadale/nodejs-microservices",
-    "deployed": null,
+    "title": "iBoard",
+    "image": "https://res.cloudinary.com/ddaalka6i/image/upload/v1716044962/portfolio/logo_mstdof.svg",
+    "description": "iBoard brands itself as a digital whiteboard that makes it easy to collaborate with others. The software allows you to create notes and designs, move things around.",
+    "technologies": "NextJS | Clerk | Convex | Tailwind CSS",
+    "github": "https://github.com/Aryan-Jagadale/iBoard",
+    "deployed": "https://iboard.vercel.app/",
     "id": "1"
   },
   {
-    "title": "Academy-Edu Platform",
-    "image": "https://res.cloudinary.com/ddaalka6i/image/upload/v1686893053/portfolio/acdemy_nxmisq.png",
-    "description": "Academy is an esteemed online educational platform that empowers teachers to seamlessly upload and share their expertly crafted courses on the internet. Our platform incorporates a robust Payment Integrated Service, leveraging the capabilities of the RazorPAY API, ensuring a secure and convenient payment experience. Furthermore, Academy utilizes the advanced cloud storage solution provided by Cloudinary to securely store and manage videos and avatars, guaranteeing optimal user experience.",
-    "technologies": "ExpressJS | MongoDB | TailwindCSS | ReactJS",
-    "github": "https://github.com/Aryan-Jagadale/Academy-Full-stack",
-    "deployed": "https://academy.aaryanjagadale.tech/",
+    "title": "Brand ASAP",
+    "image": "https://www.vectorlogo.zone/logos/gatsbyjs/gatsbyjs-icon.svg",
+    "description": "During my journey as a web developer, I embarked on a personal learning project to expand my skills and explore new technologies. For this purpose, I chose to work on a project that involved utilizing GSAP.",
+    "github": "https://github.com/Aryan-Jagadale/brand-stories-gsap",
+    "deployed": "https://brand-asap.netlify.app/",
     "id": "2"
   },
   {
@@ -42,7 +42,8 @@
     "technologies": "MongoDB | ReactJS | NodeJS (MERN)",
     "github": "https://github.com/Aryan-Jagadale/ITMS-CollegeERPSystem",
     "deployed": "https://main.d4tu6cmlssl0k.amplifyapp.com/",
-    "id": "5"
+    "id": "5",
+    "show":false
   },
   {
     "title": "TedxVITPune",
@@ -55,11 +56,23 @@
   },
 
   {
-    "title": "Brand ASAP",
-    "image": "https://www.vectorlogo.zone/logos/gatsbyjs/gatsbyjs-icon.svg",
-    "description": "During my journey as a web developer, I embarked on a personal learning project to expand my skills and explore new technologies. For this purpose, I chose to work on a project that involved utilizing GSAP.",
-    "github": "https://github.com/Aryan-Jagadale/brand-stories-gsap",
-    "deployed": "https://brand-asap.netlify.app/",
+    "title": "NanoServe",
+    "image": "https://res.cloudinary.com/ddaalka6i/image/upload/v1686909444/portfolio/Header-MS-v1-removebg-preview_qa0yqz.png",
+    "description": "The project aimed to explore the practical implementation of microservice architecture using Docker. It also focused on the effective utilization of the Pub-Sub model within these microservices. Additionally, by leveraging RabbitMQ, the system was designed to handle service failures gracefully by storing pending data in the message queue provided by RabbitMQ. This endeavor provided a deeper understanding of Docker at an abstract level.",
+    "technologies": "ExpressJS | MongoDB | NodeJS | RabbitMQ",
+    "github": "https://github.com/Aryan-Jagadale/nodejs-microservices",
+    "deployed": null,
     "id": "7"
+  },
+  {
+    "title": "Academy-Edu Platform",
+    "image": "https://res.cloudinary.com/ddaalka6i/image/upload/v1686893053/portfolio/acdemy_nxmisq.png",
+    "description": "Academy is an esteemed online educational platform that empowers teachers to seamlessly upload and share their expertly crafted courses on the internet. Our platform incorporates a robust Payment Integrated Service, leveraging the capabilities of the RazorPAY API, ensuring a secure and convenient payment experience. Furthermore, Academy utilizes the advanced cloud storage solution provided by Cloudinary to securely store and manage videos and avatars, guaranteeing optimal user experience.",
+    "technologies": "ExpressJS | MongoDB | TailwindCSS | ReactJS",
+    "github": "https://github.com/Aryan-Jagadale/Academy-Full-stack",
+    "deployed": null,
+    "id": "8",
+    "show":false
+
   }
 ]

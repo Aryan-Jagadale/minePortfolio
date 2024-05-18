@@ -20,6 +20,7 @@ const Portfolio = () => {
         github={project.github}
         deployed={project.deployed}
         description={project.description}
+        show={project.show}
       />
     ));
 
